@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/hocosolarfarm/public_html/wp-content/themes/hocosolarfarm		
+    - /bin/cp -R src $DEPLOYPATH
