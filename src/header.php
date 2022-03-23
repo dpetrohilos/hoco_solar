@@ -29,23 +29,25 @@
 
         
 <div id="menu" role="navigation">
-  <div id="menu-bar" class="menu" onclick="menuOnClick()" event="keydown" onkeydown="RemoveEventListener">
+  <div id="menu-bar" class="bento-menu" onclick="menuOnClick()" event="keydown" onkeydown="RemoveEventListener">
 		<span class="bar"></span>
 		<span class="bar"></span>
-		<span class="bar"></span>	
+		<span class="bar"></span>
+		<span class="bar"></span>
+		<span class="bar"></span>
+		<span class="bar"></span>
+		<span class="bar"></span>
         <span class="bar"></span>
 		<span class="bar"></span>
-		<span class="bar"></span>
-		<span class="bar"></span>
-		<span class="bar"></span>
-		<span class="bar"></span>
-
     </div>
     
   <nav class="nav" id="nav">
       <?php html5blank_nav(); ?>
   </nav> 
 </div>
+
+<div class="menu-bg" id="menu-bg"></div>
+
 
 <div class="menu-bg" id="menu-bg"></div>
             
