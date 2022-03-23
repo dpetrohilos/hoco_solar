@@ -83,9 +83,9 @@
   .nav-icon span {
     display: block;
     position: absolute;
-    height: 9px;
+    height: .1rem;
     width: 100%;
-    background: #d3531a;
+    background: #0B0B0B;
     border-radius: 9px;
     opacity: 1;
     left: 0;

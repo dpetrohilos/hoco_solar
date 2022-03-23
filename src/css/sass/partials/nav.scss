@@ -94,9 +94,9 @@ width: 250vw;
  span {
   display: block;
   position: absolute;
-  height: 9px;
+  height: .1rem;
   width: 100%;
-  background: #d3531a;
+  background: $black;
   border-radius: 9px;
   opacity: 1;
   left: 0;
