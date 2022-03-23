@@ -27,7 +27,6 @@
 	<body <?php body_class(); ?>>
         
 
-<div class="menu-bg" id="menu-bg"></div>
 
 
             
@@ -70,6 +69,7 @@
       <?php html5blank_nav(); ?>
   </nav> 
 </div>
+<div class="menu-bg" id="menu-bg"></div>
 
             
 </header>
