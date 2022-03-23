@@ -191,31 +191,40 @@ input[type="search"] {
  * ---
  * Menus
  */
-/* line 20, css/sass/partials/nav.scss */
+/* line 17, css/sass/partials/nav.scss */
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+/* line 26, css/sass/partials/nav.scss */
 .nav {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
   display: none; }
 
-/* line 26, css/sass/partials/nav.scss */
+/* line 32, css/sass/partials/nav.scss */
 .nav li {
   list-style: none;
   padding: 0; }
 
-/* line 30, css/sass/partials/nav.scss */
+/* line 36, css/sass/partials/nav.scss */
 .nav li a {
   color: #fff;
   font-size: 1.8rem;
   text-decoration: none; }
 
-/* line 35, css/sass/partials/nav.scss */
+/* line 41, css/sass/partials/nav.scss */
 .menu-bg, #menu {
   top: 0;
   left: 0;
-  position: fixed;
   z-index: 999; }
 
-/* line 42, css/sass/partials/nav.scss */
+/* line 47, css/sass/partials/nav.scss */
 .menu-bg {
   z-index: 1;
   width: 0;
@@ -225,34 +234,32 @@ input[type="search"] {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease; }
 
-/* line 51, css/sass/partials/nav.scss */
+/* line 56, css/sass/partials/nav.scss */
 .change {
   display: block; }
 
-/* line 55, css/sass/partials/nav.scss */
+/* line 60, css/sass/partials/nav.scss */
 .change .bar {
   background-color: #fff; }
 
-/* line 59, css/sass/partials/nav.scss */
+/* line 64, css/sass/partials/nav.scss */
 .change-bg {
   width: 250vw;
   height: 150vh;
   -webkit-transform: translate(-60%, -30%);
-  transform: translate(-60%, -30%);
-  position: fixed; }
+  transform: translate(-60%, -30%); }
 
-/* line 71, css/sass/partials/nav.scss */
+/* line 75, css/sass/partials/nav.scss */
 .nav-icon {
   width: 60px;
   height: 45px;
-  position: relative;
   margin: 50px auto;
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   cursor: pointer; }
-  /* line 85, css/sass/partials/nav.scss */
+  /* line 88, css/sass/partials/nav.scss */
   .nav-icon span {
     display: block;
     position: absolute;
@@ -267,30 +274,30 @@ input[type="search"] {
     -webkit-transition: .25s ease-in-out;
     transition: .25s ease-in-out; }
 
-/* line 106, css/sass/partials/nav.scss */
+/* line 109, css/sass/partials/nav.scss */
 .nav-icon span:nth-child(1) {
   top: 0px; }
 
-/* line 110, css/sass/partials/nav.scss */
+/* line 113, css/sass/partials/nav.scss */
 .nav-icon span:nth-child(2) {
   top: 18px; }
 
-/* line 114, css/sass/partials/nav.scss */
+/* line 117, css/sass/partials/nav.scss */
 .nav-icon span:nth-child(3) {
   top: 36px; }
 
-/* line 118, css/sass/partials/nav.scss */
+/* line 121, css/sass/partials/nav.scss */
 .nav-icon.change span:nth-child(1) {
   top: 18px;
   -webkit-transform: rotate(135deg);
   transform: rotate(135deg); }
 
-/* line 126, css/sass/partials/nav.scss */
+/* line 129, css/sass/partials/nav.scss */
 .nav-icon.change span:nth-child(2) {
   opacity: 0;
   left: -60px; }
 
-/* line 131, css/sass/partials/nav.scss */
+/* line 134, css/sass/partials/nav.scss */
 .nav-icon.change span:nth-child(3) {
   top: 18px;
   -webkit-transform: rotate(-135deg);
