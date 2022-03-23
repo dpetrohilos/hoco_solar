@@ -11,7 +11,7 @@
 /**
  * Grid
  */
-/* line 48, ../css/sass/modules/variables.scss */
+/* line 47, ../css/sass/modules/variables.scss */
 .grid {
   display: grid;
   grid-template-rows: 3.2rem;
@@ -23,18 +23,18 @@
   grid-column-gap: 1.6rem;
   grid-row-gap: 1.6rem; }
 
-/* line 62, ../css/sass/modules/variables.scss */
+/* line 61, ../css/sass/modules/variables.scss */
 .grid-item-1 {
   /* Start First Row*/ }
-  /* line 67, ../css/sass/modules/variables.scss */
+  /* line 66, ../css/sass/modules/variables.scss */
   .grid-item-1 div:nth-child(1) {
     grid-column: 1 / span 12;
     grid-row: 1 / span 4; }
-  /* line 73, ../css/sass/modules/variables.scss */
+  /* line 72, ../css/sass/modules/variables.scss */
   .grid-item-1 div:nth-child(2) {
     grid-column: 21 / span 2;
     grid-row: 1 / span 2; }
-  /* line 78, ../css/sass/modules/variables.scss */
+  /* line 77, ../css/sass/modules/variables.scss */
   .grid-item-1 div:nth-child(3) {
     grid-column: 23 / span 4;
     grid-row: 1 / span 2; }
