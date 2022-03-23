@@ -304,31 +304,33 @@ input[type="search"] {
 /* line 101, css/sass/partials/nav.scss */
 .nav-icon span:nth-child(1) {
   top: 0px;
+  left: 1.8rem;
   width: 1.8rem; }
 
-/* line 106, css/sass/partials/nav.scss */
+/* line 107, css/sass/partials/nav.scss */
 .nav-icon span:nth-child(2) {
   top: 1.2rem;
-  width: 2.8rem; }
+  width: 2.8rem;
+  left: .6rem; }
 
-/* line 111, css/sass/partials/nav.scss */
+/* line 113, css/sass/partials/nav.scss */
 .nav-icon span:nth-child(3) {
   top: 2.4rem;
   width: 3.6rem; }
 
-/* line 116, css/sass/partials/nav.scss */
+/* line 118, css/sass/partials/nav.scss */
 .nav-icon.change span:nth-child(1) {
   top: 1.2rem;
   -webkit-transform: rotate(135deg);
   transform: rotate(135deg);
   width: 3.6rem; }
 
-/* line 126, css/sass/partials/nav.scss */
+/* line 128, css/sass/partials/nav.scss */
 .nav-icon.change span:nth-child(2) {
   opacity: 0;
   left: -60px; }
 
-/* line 131, css/sass/partials/nav.scss */
+/* line 133, css/sass/partials/nav.scss */
 .nav-icon.change span:nth-child(3) {
   top: 18px;
   -webkit-transform: rotate(-135deg);
