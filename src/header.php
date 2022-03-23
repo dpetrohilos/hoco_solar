@@ -29,12 +29,10 @@
 
         
 <div id="menu" role="navigation">
-  <div id="menu-bar" class="hamburger-menu-icon" onclick="menuOnClick()" event="keydown" onkeydown="RemoveEventListener">
+  <div id="menu-bar" class="nav-icon" onclick="menuOnClick()" event="keydown" onkeydown="RemoveEventListener">
 		<span class="bar"></span>
 		<span class="bar"></span>
 		<span class="bar"></span>
-        <span class="bar"></span>
-
     </div>
     
   <nav class="nav" id="nav">
