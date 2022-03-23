@@ -321,19 +321,20 @@ input[type="search"] {
 
 /* line 119, css/sass/partials/nav.scss */
 .nav-icon.change span:nth-child(1) {
-  top: 1.2rem;
+  top: 0;
   -webkit-transform: rotate(135deg);
   transform: rotate(135deg);
-  width: 3.6rem; }
+  width: 3.6rem;
+  left: 0; }
 
-/* line 129, css/sass/partials/nav.scss */
+/* line 127, css/sass/partials/nav.scss */
 .nav-icon.change span:nth-child(2) {
   opacity: 0;
   left: -60px; }
 
-/* line 134, css/sass/partials/nav.scss */
+/* line 132, css/sass/partials/nav.scss */
 .nav-icon.change span:nth-child(3) {
-  top: 18px;
+  top: 0;
   -webkit-transform: rotate(-135deg);
   transform: rotate(-135deg); }
 
