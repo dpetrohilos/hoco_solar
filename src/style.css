@@ -1,86 +1,407 @@
 /*
-Error: Undefined variable: "$nav".
-        on line 9 of /Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/partials/nav.scss
-        from line 26 of /Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/style.scss
-
-4: Author: Dylan Petrohilos 
-5: Author URI: repeater.digital
-6: Description: Hoco Solar Farm Theme Based On HTML5 blank, FlexBox Grid    
-7: *\/
-8: 
-9: /**
-10:  * styles.scss
-11:  * ---
-12:  * Main `sass` file. Import here `sass` files
-13:  *\/
-14: 
-
-Backtrace:
-/Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/partials/nav.scss:9
-/Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/style.scss:26
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block (2 levels) in visit_rule'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `map'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block in visit_rule'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:432:in `visit_rule'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:329:in `map'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:88:in `block in with_import'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:88:in `with_import'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `map'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:161:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:10:in `visit'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/root_node.rb:20:in `render'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/sass_compiler.rb:40:in `compile!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/commands/update_project.rb:49:in `perform'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
-/Applications/Koala.app/Contents/Resources/app.nw/bin/compass:22:in `load'
-/Applications/Koala.app/Contents/Resources/app.nw/bin/compass:22:in `<main>'
+Theme Name: Hoco Solar Farm  
+Theme URI: https://github.com/dpetrohilos/hoco_solar   
+Author: Dylan Petrohilos 
+Author URI: repeater.digital
+Description: Hoco Solar Farm Theme Based On HTML5 blank, FlexBox Grid    
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$nav\".\A         on line 9 of /Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/partials/nav.scss\A         from line 26 of /Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/style.scss\A \A 4: Author: Dylan Petrohilos \A 5: Author URI: repeater.digital\A 6: Description: Hoco Solar Farm Theme Based On HTML5 blank, FlexBox Grid    \A 7: */\A 8: \A 9: /**\A 10:  * styles.scss\A 11:  * ---\A 12:  * Main `sass` file. Import here `sass` files\A 13:  */\A 14: "; }
+/**
+ * styles.scss
+ * ---
+ * Main `sass` file. Import here `sass` files
+ */
+/**
+ * modules/variables
+ * ---
+ */
+/**
+ * Typography
+ */
+/**
+ * Colors
+ */
+/**
+ * Grid
+ */
+/**
+ * modules/mixins
+ * ---
+ */
+/**
+ * modules/fonts
+ * ---
+ * Declare fonts here
+ */
+/*
+@font-face {
+  font-family: "Font-Name";
+  src: url("fonts/font-name.eot");
+  src: url("fonts/font-name.eot?#iefix") format("embedded-opentype"),
+    url("fonts/font-name.woff") format("woff"),
+    url("fonts/font-name.ttf") format("truetype"),
+    url("fonts/font-name.svg#font-name") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+*/
+/**
+ * partials/reset
+ * ---
+ * Reset file
+ * NOTE: also `normalize.css` is used
+ */
+/* line 10, css/sass/partials/reset.scss */
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+/* line 16, css/sass/partials/reset.scss */
+html {
+  font-size: 62.5%;
+  -webkit-tap-highlight-color: transparent; }
+
+/* line 23, css/sass/partials/reset.scss */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, "Open Sans", sans-serif;
+  font-size: 140%;
+  line-height: 1.5;
+  color: #444;
+  background-color: #fff; }
+
+/* line 31, css/sass/partials/reset.scss */
+img {
+  max-width: 100%;
+  vertical-align: middle; }
+
+/* line 38, css/sass/partials/reset.scss */
+a {
+  color: #444;
+  text-decoration: none; }
+  /* line 42, css/sass/partials/reset.scss */
+  a:focus, a:hover {
+    text-decoration: underline; }
+
+/* line 50, css/sass/partials/reset.scss */
+input[type="text"],
+input[type="search"] {
+  font-size: inherit;
+  line-height: inherit; }
+
+/* line 57, css/sass/partials/reset.scss */
+::-moz-selection {
+  background-color: #04A4CC;
+  color: #fff;
+  text-shadow: none; }
+::selection {
+  background-color: #04A4CC;
+  color: #fff;
+  text-shadow: none; }
+
+/**
+ * partials/wordpress
+ * ---
+ * Wordpess core classes
+ */
+/**
+ * Alignment
+ */
+/* line 16, css/sass/partials/wordpress.scss */
+.alignnone {
+  margin: 5px 15px 15px 0; }
+
+/* line 20, css/sass/partials/wordpress.scss */
+.aligncenter {
+  display: block;
+  margin: 5px auto; }
+
+/* line 25, css/sass/partials/wordpress.scss */
+.alignright {
+  float: right;
+  margin: 5px 0 15px 15px; }
+
+/* line 30, css/sass/partials/wordpress.scss */
+.alignleft {
+  float: left;
+  margin: 5px 15px 15px 0; }
+
+/**
+ * Gallery & images
+ */
+/* line 40, css/sass/partials/wordpress.scss */
+.wp-caption {
+  background: #fff;
+  border: thin solid #F0F0F0;
+  max-width: 95%;
+  padding: 5px 5px;
+  text-align: center; }
+  /* line 47, css/sass/partials/wordpress.scss */
+  .wp-caption img {
+    width: auto;
+    max-width: 98.5%;
+    height: auto;
+    border: 0 none;
+    padding: 0;
+    margin: 0; }
+
+/* line 57, css/sass/partials/wordpress.scss */
+.wp-caption .wp-caption-text,
+.gallery-caption {
+  margin: 0;
+  padding: 0 5px 5px;
+  font-size: 140%;
+  line-height: 1.5; }
+
+/**
+ * partials/utils
+ * ---
+ * Utils classes
+ */
+/* line 10, css/sass/partials/utils.scss */
+.clear:before, .clear:after {
+  content: " ";
+  display: table; }
+/* line 16, css/sass/partials/utils.scss */
+.clear:after {
+  clear: both; }
+
+/* line 21, css/sass/partials/utils.scss */
+.reset-box {
+  padding: 0;
+  margin: 0; }
+
+/**
+ * partials/wrapper
+ * ---
+ */
+/* line 7, css/sass/partials/wrapper.scss */
+.wrapper {
+  max-width: 1280px;
+  padding: 0 15px;
+  margin: 0 auto;
+  position: relative; }
+
+/**
+ * partials/header
+ * ---
+ */
+/**
+ * partials/nav
+ * ---
+ * Menus
+ */
+/* line 19, css/sass/partials/nav.scss */
+#menu-bar {
+  width: 1.2rem;
+  height: 1.2rem;
+  position: fixed;
+  top: 1.6rem;
+  left: 1.6rem;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  cursor: pointer; }
+
+/* line 31, css/sass/partials/nav.scss */
+.bento-menu span {
+  width: 1.2rem;
+  height: 1.2rem;
+  background: #EF3A01;
+  position: absolute; }
+
+/* line 39, css/sass/partials/nav.scss */
+.bento-menu span:nth-child(1) {
+  top: 0;
+  left: 0;
+  -webkit-transition: .6s;
+  transition: .6s; }
+
+/* line 44, css/sass/partials/nav.scss */
+.bento-menu span:nth-child(2) {
+  top: 0;
+  left: 1.6rem;
+  -webkit-transition: .6s;
+  transition: .6s; }
+
+/* line 49, css/sass/partials/nav.scss */
+.bento-menu span:nth-child(3) {
+  top: 0;
+  left: 3.2rem;
+  -webkit-transition: .6s;
+  transition: .6s; }
+
+/* line 54, css/sass/partials/nav.scss */
+.bento-menu span:nth-child(4) {
+  top: 1.6rem;
+  left: 0;
+  -webkit-transition: .6s;
+  transition: .6s; }
+
+/* line 59, css/sass/partials/nav.scss */
+.bento-menu span:nth-child(5) {
+  top: 1.6rem;
+  left: 1.6rem;
+  -webkit-transition: .6s;
+  transition: .6s; }
+
+/* line 64, css/sass/partials/nav.scss */
+.bento-menu span:nth-child(6) {
+  top: 1.6rem;
+  left: 3.2rem;
+  -webkit-transition: .6s;
+  transition: .6s; }
+
+/* line 69, css/sass/partials/nav.scss */
+.bento-menu span:nth-child(7) {
+  top: 3.2rem;
+  left: 0;
+  -webkit-transition: .6s;
+  transition: .6s; }
+
+/* line 74, css/sass/partials/nav.scss */
+.bento-menu span:nth-child(8) {
+  top: 3.2rem;
+  left: 1.6rem;
+  -webkit-transition: .6s;
+  transition: .6s; }
+
+/* line 79, css/sass/partials/nav.scss */
+.bento-menu span:nth-child(9) {
+  top: 3.2rem;
+  left: 3.2rem;
+  -webkit-transition: .6s;
+  transition: .6s; }
+
+/* line 100, css/sass/partials/nav.scss */
+.nav {
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  display: none; }
+
+/* line 105, css/sass/partials/nav.scss */
+.nav ul {
+  padding: 7.2rem 1.2rem; }
+
+/* line 109, css/sass/partials/nav.scss */
+.nav li {
+  list-style: none;
+  padding: 0; }
+
+/* line 114, css/sass/partials/nav.scss */
+.nav li a {
+  color: #fff;
+  font-size: 1.8rem;
+  text-decoration: none; }
+
+/* line 121, css/sass/partials/nav.scss */
+.menu-bg, #menu {
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 999; }
+
+/* line 128, css/sass/partials/nav.scss */
+.menu-bg {
+  z-index: 1;
+  width: 0;
+  height: 0;
+  margin: 3.6rem 0 2.4rem 2.40rem;
+  background: #EF3A01;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease; }
+
+/* line 137, css/sass/partials/nav.scss */
+.change {
+  display: block; }
+
+/* line 141, css/sass/partials/nav.scss */
+.change .bar {
+  background-color: #fff; }
+
+/* line 145, css/sass/partials/nav.scss */
+.change-bg {
+  width: 250vw;
+  height: 150vh;
+  -webkit-transform: translate(-60%, -30%);
+  transform: translate(-60%, -30%);
+  position: fixed; }
+
+/**
+ * partials/sidebar
+ * ---
+ */
+/**
+ * partials/footer
+ * ---
+ */
+/**
+ * partials/print
+ * ---
+ * Print version
+ * (from https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css)
+ */
+@media print {
+  /* line 10, css/sass/partials/print.scss */
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster: h5bp.com/s */
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+    text-shadow: none !important; }
+
+  /* line 19, css/sass/partials/print.scss */
+  a,
+  a:visited {
+    text-decoration: underline; }
+
+  /* line 24, css/sass/partials/print.scss */
+  a[href]:after {
+    content: " (" attr(href) ")"; }
+
+  /* line 28, css/sass/partials/print.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
+
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  /* line 37, css/sass/partials/print.scss */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: ""; }
+
+  /* line 42, css/sass/partials/print.scss */
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
+
+  /* line 48, css/sass/partials/print.scss */
+  thead {
+    display: table-header-group;
+    /* h5bp.com/t */ }
+
+  /* line 52, css/sass/partials/print.scss */
+  tr,
+  img {
+    page-break-inside: avoid; }
+
+  /* line 57, css/sass/partials/print.scss */
+  img {
+    max-width: 100% !important; }
+
+  /* line 61, css/sass/partials/print.scss */
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3; }
+
+  /* line 68, css/sass/partials/print.scss */
+  h2,
+  h3 {
+    page-break-after: avoid; } }
