@@ -17,15 +17,17 @@ const io = new IntersectionObserver((entries) =>
         document.querySelectorAll(".lazy").forEach((element) => io.observe(element));
 
 function menuOnClick() {
-  document.getElementById("menu-bar").classList.toggle("change");
-  document.getElementById("nav").classList.toggle("change");
+  document.getElementById(".nav-icon").classList.toggle("open");
+  document.getElementById("nav-icon").classList.toggle("open");
   document.getElementById("menu-bg").classList.toggle("change-bg");
 }
 
 document.addEventListener('keydown', function(event){
 	if(event.key === "Escape"){
-  document.getElementById("menu-bar").classList.remove("change");
-  document.getElementById("nav").classList.remove("change");
+  document.getElementById("nav-icon").classList.remove("open");
+  document.getElementById("nav-icon").classList.remove("open");
   document.getElementById("menu-bg").classList.remove("change-bg");
 	}
 });
+
+
