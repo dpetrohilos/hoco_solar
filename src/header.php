@@ -29,7 +29,7 @@
 
         
 <div id="menu" role="navigation">
-  <div id="menu-bar" class="nav-icon" onclick="menuOnClick()" event="keydown" onkeydown="RemoveEventListener">
+  <div id="nav-icon" class="nav-icon" onclick="menuOnClick()" event="keydown" onkeydown="RemoveEventListener">
 		<span class="bar"></span>
 		<span class="bar"></span>
 		<span class="bar"></span>
