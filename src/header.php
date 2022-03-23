@@ -36,16 +36,24 @@
 					<div class="logo">
 						<a href="<?php echo esc_url( home_url() ); ?>">
 							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg" alt="Logo" class="logo-img">
+							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg" alt="Howard County Solar Farm" class="logo-img">
 						</a>
 					</div>
 					<!-- /logo -->
 
-					<!-- nav -->
-					<nav class="nav" role="navigation">
-						<?php html5blank_nav(); ?>
-					</nav>
-					<!-- /nav -->
-
+					
 			</header>
 			<!-- /header -->
+<div id="menu" role="navigation">
+  <div id="menu-bar" class="menu" onclick="menuOnClick()" event="keydown" onkeydown="RemoveEventListener">
+		<span class="bar"></span>
+		<span class="bar"></span>
+		<span class="bar"></span>
+    </div>
+    
+  <nav class="nav" id="nav">
+      <?php html5blank_nav(); ?>
+  </nav> 
+</div>
+
+<div class="menu-bg" id="menu-bg"></div>
