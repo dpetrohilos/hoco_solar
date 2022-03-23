@@ -29,6 +29,14 @@
 
         
 <div id="menu" role="navigation">
+    
+    	<div class="logo">
+						<a href="<?php echo esc_url( home_url() ); ?>">
+							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
+							<img width="43" height="56" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/HC-Logo.svg" alt="Howard County Solar Farm" class="logo-img">
+						</a>
+					</div>
+    
   <div id="menu-bar" class="nav-icon" onclick="menuOnClick()" event="keydown" onkeydown="RemoveEventListener">
 		<span class="bar"></span>
 		<span class="bar"></span>
@@ -56,7 +64,7 @@
 					<div class="logo">
 						<a href="<?php echo esc_url( home_url() ); ?>">
 							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg" alt="Howard County Solar Farm" class="logo-img">
+							<img height="122" width="324" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo.svg" alt="Howard County Solar Farm" class="logo-img">
 						</a>
 					</div>
 					<!-- /logo -->
