@@ -69,7 +69,6 @@
       <?php html5blank_nav(); ?>
   </nav> 
 </div>
-<div class="menu-bg" id="menu-bg"></div>
 
             
 </header>
