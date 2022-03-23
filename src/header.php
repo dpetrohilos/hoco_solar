@@ -26,8 +26,9 @@
 	</head>
 	<body <?php body_class(); ?>>
         
+
         
-        <div id="menu" role="navigation">
+<div id="menu" role="navigation">
   <div id="menu-bar" class="menu" onclick="menuOnClick()" event="keydown" onkeydown="RemoveEventListener">
 		<span class="bar"></span>
 		<span class="bar"></span>
