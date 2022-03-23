@@ -22,9 +22,6 @@
   padding: 2.4rem 1.6rem 0rem 1.6rem;
   grid-column-gap: 1.6rem;
   grid-row-gap: 1.6rem; }
-  /* line 60, ../css/sass/modules/variables.scss */
-  .grid img {
-    border-radius: 1rem; }
 
 /* line 62, ../css/sass/modules/variables.scss */
 .grid-item-1 {
