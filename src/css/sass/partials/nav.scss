@@ -4,10 +4,6 @@
  * Menus
  */
 
-
-$nav: 1.2rem; 
-
-
 .menu-item {}
 #menu-bar {
 	width: $nav;
@@ -19,7 +15,77 @@ $nav: 1.2rem;
   cursor: pointer;
 }
 
-
+.bento-menu{
+}
+.bento-menu span{
+	width: $nav;
+	height: $nav;
+	background: $red;
+	position: absolute;
+    
+   
+}
+.bento-menu span:nth-child(1){
+	top: 0;
+	left: 0;
+	transition: .6s;
+}
+.bento-menu span:nth-child(2){
+	top: 0;
+	left: 1.6rem;
+	transition: .6s;
+}
+.bento-menu span:nth-child(3){
+	top: 0;
+	left: 3.2rem;
+	transition: .6s;
+}
+.bento-menu span:nth-child(4){
+	top: 1.6rem;
+	left: 0;
+	transition: .6s;
+}
+.bento-menu span:nth-child(5){
+	top: 1.6rem;
+	left: 1.6rem;
+	transition: .6s;
+}
+.bento-menu span:nth-child(6){
+	top: 1.6rem;
+	left:3.2rem;
+	transition: .6s;
+}
+.bento-menu span:nth-child(7){
+	top: 3.2rem;
+	left: 0;
+	transition: .6s;
+}
+.bento-menu span:nth-child(8){
+	top: 3.2rem;
+	left: 1.6rem;
+	transition: .6s;
+}
+.bento-menu span:nth-child(9){
+	top: 3.2rem;
+	left:3.2rem;
+	transition: .6s;
+}
+.bento-menu:hover span:nth-child(1){
+}
+.bento-menu:hover span:nth-child(3){
+}
+.bento-menu:hover span:nth-child(7){
+}
+.bento-menu:hover span:nth-child(9){
+}
+.bento-menu:hover span:nth-child(2){
+}
+.bento-menu:hover span:nth-child(4){
+}
+.bento-menu:hover span:nth-child(6){
+}
+.bento-menu:hover span:nth-child(8){
+}
 .nav {
   transition: 0.3s ease;
   display: none;
@@ -35,6 +101,7 @@ $nav: 1.2rem;
 }
 
 .nav li a {
+  color: $white;
   font-size: 1.8rem;
   text-decoration: none;
 }
@@ -52,6 +119,7 @@ z-index: 999;
   width: 0;
   height: 0;
   margin: 3.6rem 0 2.4rem 2.40rem;
+  background: $red; 
   transition: 0.3s ease;
 }
 
@@ -60,6 +128,7 @@ z-index: 999;
 }
 
 .change .bar {
+  background-color: $white;
 }
 
 .change-bg {
