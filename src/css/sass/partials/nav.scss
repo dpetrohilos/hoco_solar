@@ -14,15 +14,7 @@ $white: #fff;
 
 
 .menu-item {}
-#menu-bar {
-	width: $nav;
-	height: $nav;
-	position: fixed;
-	top: 1.6rem;
-	left: 1.6rem;
-	transform: translateY(-50%);
-  cursor: pointer;
-}
+#menu-bar {}
 
 
 .nav {
@@ -30,7 +22,6 @@ $white: #fff;
   display: none;
 }
 .nav ul {
-  padding: 7.2rem 1.2rem;
 }
 .nav li {
   list-style: none;
