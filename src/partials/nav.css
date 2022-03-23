@@ -1,116 +1,71 @@
-/**
- * partials/nav
- * ---
- * Menus
- */
-/* line 17, ../css/sass/partials/nav.scss */
-.menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column; }
+/*
+Error: Undefined variable: "$white".
+        on line 30 of /Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/partials/nav.scss
 
-/* line 26, ../css/sass/partials/nav.scss */
-.nav {
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
-  display: none; }
+25: .nav li {
+26:   list-style: none;
+27:   padding:0;
+28: }
+29: .nav li a {
+30:   color: $white;
+31:   font-size: 1.8rem;
+32:   text-decoration: none;
+33: }
+34: .menu-bg, #menu {
+35:   top: 0;
 
-/* line 32, ../css/sass/partials/nav.scss */
-.nav li {
-  list-style: none;
-  padding: 0; }
-
-/* line 36, ../css/sass/partials/nav.scss */
-.nav li a {
-  color: #fff;
-  font-size: 1.8rem;
-  text-decoration: none; }
-
-/* line 41, ../css/sass/partials/nav.scss */
-.menu-bg, #menu {
-  top: 0;
-  left: 0;
-  z-index: 999; }
-
-/* line 47, ../css/sass/partials/nav.scss */
-.menu-bg {
-  z-index: 1;
-  width: 0;
-  height: 0;
-  margin: 3.6rem 0 2.4rem 2.40rem;
-  background: #EF3A01;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease; }
-
-/* line 56, ../css/sass/partials/nav.scss */
-.change {
-  display: block; }
-
-/* line 60, ../css/sass/partials/nav.scss */
-.change .bar {
-  background-color: #fff; }
-
-/* line 64, ../css/sass/partials/nav.scss */
-.change-bg {
-  width: 250vw;
-  height: 150vh;
-  -webkit-transform: translate(-60%, -30%);
-  transform: translate(-60%, -30%); }
-
-/* line 75, ../css/sass/partials/nav.scss */
-.nav-icon {
-  width: 60px;
-  height: 45px;
-  margin: 50px auto;
-  -webkit-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
-  cursor: pointer; }
-  /* line 88, ../css/sass/partials/nav.scss */
-  .nav-icon span {
-    display: block;
-    position: absolute;
-    height: .1rem;
-    width: 100%;
-    background: #0B0B0B;
-    border-radius: 9px;
-    opacity: 1;
-    left: 0;
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-    -webkit-transition: .25s ease-in-out;
-    transition: .25s ease-in-out; }
-
-/* line 109, ../css/sass/partials/nav.scss */
-.nav-icon span:nth-child(1) {
-  top: 0px; }
-
-/* line 113, ../css/sass/partials/nav.scss */
-.nav-icon span:nth-child(2) {
-  top: 18px; }
-
-/* line 117, ../css/sass/partials/nav.scss */
-.nav-icon span:nth-child(3) {
-  top: 36px; }
-
-/* line 121, ../css/sass/partials/nav.scss */
-.nav-icon.change span:nth-child(1) {
-  top: 18px;
-  -webkit-transform: rotate(135deg);
-  transform: rotate(135deg); }
-
-/* line 129, ../css/sass/partials/nav.scss */
-.nav-icon.change span:nth-child(2) {
-  opacity: 0;
-  left: -60px; }
-
-/* line 134, ../css/sass/partials/nav.scss */
-.nav-icon.change span:nth-child(3) {
-  top: 18px;
-  -webkit-transform: rotate(-135deg);
-  transform: rotate(-135deg); }
+Backtrace:
+/Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/partials/nav.scss:30
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block (2 levels) in visit_rule'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `map'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block in visit_rule'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:432:in `visit_rule'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `map'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/root_node.rb:20:in `render'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/engine.rb:284:in `render'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:494:in `update_stylesheet'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/sass_compiler.rb:40:in `compile!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/commands/update_project.rb:49:in `perform'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/commands/base.rb:18:in `execute'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/commands/project_base.rb:19:in `execute'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/bin/compass:30:in `block in <top (required)>'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/compass-1.0.3/bin/compass:44:in `<top (required)>'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/compass:22:in `load'
+/Applications/Koala.app/Contents/Resources/app.nw/bin/compass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$white\".\A         on line 30 of /Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/partials/nav.scss\A \A 25: .nav li {\A 26:   list-style: none;\A 27:   padding:0;\A 28: }\A 29: .nav li a {\A 30:   color: $white;\A 31:   font-size: 1.8rem;\A 32:   text-decoration: none;\A 33: }\A 34: .menu-bg, #menu {\A 35:   top: 0;"; }

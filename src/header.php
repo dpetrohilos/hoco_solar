@@ -36,7 +36,7 @@
 		<div class="wrapper">
 
 			<!-- header -->
-			<header class="header clear" role="banner">
+			<header class="header grid-item grid-item-1" role="banner">
 
 					<!-- logo -->
 					<div class="logo">
