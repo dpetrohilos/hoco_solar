@@ -49,16 +49,16 @@
 
 					
 			
-            
-        
-<div id="menu" class="menu" role="navigation">
-    
-    	<div class="logo menu-item">
+<div class="logo">
 						<a href="<?php echo esc_url( home_url() ); ?>">
 							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
 							<img width="43" height="56" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/HC-Logo.svg" alt="Howard County Solar Farm" class="logo-img">
 						</a>
-					</div>
+					</div>          
+        
+<div id="menu" class="menu" role="navigation">
+    
+    	
     
   <div id="menu-bar" class="nav-icon menu-item" onclick="menuOnClick()" event="keydown" onkeydown="RemoveEventListener">
 		<span class="bar"></span>
