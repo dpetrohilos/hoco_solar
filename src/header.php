@@ -47,9 +47,7 @@
 					<!-- /logo -->
 
 					
-			</header>
-			<!-- /header -->
-
+			
             
         
 <div id="menu" role="navigation">
@@ -74,3 +72,5 @@
 
 <div class="menu-bg" id="menu-bg"></div>
             
+</header>
+			<!-- /header -->
