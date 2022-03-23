@@ -33,12 +33,6 @@
 		<span class="bar"></span>
 		<span class="bar"></span>
 		<span class="bar"></span>
-		<span class="bar"></span>
-		<span class="bar"></span>
-		<span class="bar"></span>
-		<span class="bar"></span>
-        <span class="bar"></span>
-		<span class="bar"></span>
     </div>
     
   <nav class="nav" id="nav">
