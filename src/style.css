@@ -329,12 +329,12 @@ input[type="search"] {
 
 /* line 127, css/sass/partials/nav.scss */
 .nav-icon.change span:nth-child(2) {
-  opacity: 1.2rem;
+  opacity: 0;
   left: -60px; }
 
 /* line 132, css/sass/partials/nav.scss */
 .nav-icon.change span:nth-child(3) {
-  top: 1.2re;
+  top: 1.2rem;
   -webkit-transform: rotate(-135deg);
   transform: rotate(-135deg); }
 
