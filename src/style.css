@@ -258,7 +258,7 @@ input[type="search"] {
   z-index: 1;
   width: 0;
   height: 0;
-  margin: 3.6rem 0 2.4rem 2.40rem;
+  margin: 0;
   background: #EF3A01;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease; }
@@ -273,8 +273,8 @@ input[type="search"] {
 
 /* line 59, css/sass/partials/nav.scss */
 .change-bg {
-  width: 250vw;
-  height: 150vh;
+  width: 100vw;
+  height: 200vh;
   -webkit-transform: translateY(-100vh);
           transform: translateY(-100vh); }
 
