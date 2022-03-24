@@ -250,9 +250,10 @@ input[type="search"] {
 .menu-bg, #menu {
   top: 0;
   left: 0;
-  z-index: 999; }
+  z-index: 999;
+  position: fixed; }
 
-/* line 40, css/sass/partials/nav.scss */
+/* line 42, css/sass/partials/nav.scss */
 .menu-bg {
   z-index: 1;
   width: 0;
@@ -262,22 +263,22 @@ input[type="search"] {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease; }
 
-/* line 49, css/sass/partials/nav.scss */
+/* line 51, css/sass/partials/nav.scss */
 .change {
   display: block; }
 
-/* line 53, css/sass/partials/nav.scss */
+/* line 55, css/sass/partials/nav.scss */
 .change .bar {
   background-color: #EF3A01; }
 
-/* line 57, css/sass/partials/nav.scss */
+/* line 59, css/sass/partials/nav.scss */
 .change-bg {
   width: 250vw;
   height: 150vh;
   -webkit-transform: translate(-60%, -30%);
   transform: translate(-60%, -30%); }
 
-/* line 68, css/sass/partials/nav.scss */
+/* line 70, css/sass/partials/nav.scss */
 .nav-icon {
   width: 60px;
   height: 45px;
@@ -287,7 +288,7 @@ input[type="search"] {
   transition: .5s ease-in-out;
   cursor: pointer;
   z-index: 1000; }
-  /* line 81, css/sass/partials/nav.scss */
+  /* line 83, css/sass/partials/nav.scss */
   .nav-icon span {
     display: block;
     position: absolute;
@@ -302,24 +303,24 @@ input[type="search"] {
     -webkit-transition: .25s ease-in-out;
     transition: .25s ease-in-out; }
 
-/* line 102, css/sass/partials/nav.scss */
+/* line 104, css/sass/partials/nav.scss */
 .nav-icon span:nth-child(1) {
   top: 0px;
   left: 1.8rem;
   width: 1.8rem; }
 
-/* line 108, css/sass/partials/nav.scss */
+/* line 110, css/sass/partials/nav.scss */
 .nav-icon span:nth-child(2) {
   top: 1.2rem;
   width: 2.8rem;
   left: .8rem; }
 
-/* line 114, css/sass/partials/nav.scss */
+/* line 116, css/sass/partials/nav.scss */
 .nav-icon span:nth-child(3) {
   top: 2.4rem;
   width: 3.6rem; }
 
-/* line 119, css/sass/partials/nav.scss */
+/* line 121, css/sass/partials/nav.scss */
 .nav-icon.change span:nth-child(1) {
   top: 1.2rem;
   -webkit-transform: rotate(135deg);
@@ -327,12 +328,12 @@ input[type="search"] {
   width: 3.6rem;
   left: 0; }
 
-/* line 127, css/sass/partials/nav.scss */
+/* line 129, css/sass/partials/nav.scss */
 .nav-icon.change span:nth-child(2) {
   opacity: 0;
   left: -60px; }
 
-/* line 132, css/sass/partials/nav.scss */
+/* line 134, css/sass/partials/nav.scss */
 .nav-icon.change span:nth-child(3) {
   top: 1.2rem;
   -webkit-transform: rotate(-135deg);
