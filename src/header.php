@@ -29,7 +29,10 @@
 
 
 
-            
+    <nav class="nav menu-item" id="nav">
+      <?php html5blank_nav(); ?>
+  </nav> <div class="menu-bg" id="menu-bg"></div>
+   
 
 		<!-- wrapper -->
 <div class="wrapper">
@@ -65,11 +68,8 @@
 		<span class="bar"></span>
     </div>
     
-  <nav class="nav menu-item" id="nav">
-      <?php html5blank_nav(); ?>
-  </nav> 
+  
 </div>
-
          
 </header>
 			<!-- /header -->
