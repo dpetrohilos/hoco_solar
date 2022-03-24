@@ -27,11 +27,21 @@
 	<body <?php body_class(); ?>>
         
 
-
-
-    <nav class="nav menu-item" id="nav">
+<div id="menu" role="navigation">
+  <div id="menu-bar" class="nav-icon menu-item" onclick="menuOnClick()" event="keydown" onkeydown="RemoveEventListener">
+		<span class="bar"></span>
+		<span class="bar"></span>
+		<span class="bar"></span>
+    </div>
+    
+  <nav class="nav" id="nav">
       <?php html5blank_nav(); ?>
-  </nav> <div class="menu-bg" id="menu-bg"></div>
+  </nav> 
+</div>
+
+<div class="menu-bg" id="menu-bg"></div>
+
+
    
 
 		<!-- wrapper -->
@@ -58,18 +68,6 @@
 						</a>
 					</div>          
         
-<div id="menu" class="menu" role="navigation">
-    
-    	
-    
-  <div id="menu-bar" class="nav-icon menu-item" onclick="menuOnClick()" event="keydown" onkeydown="RemoveEventListener">
-		<span class="bar"></span>
-		<span class="bar"></span>
-		<span class="bar"></span>
-    </div>
-    
-  
-</div>
-         
+ 
 </header>
 			<!-- /header -->
