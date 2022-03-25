@@ -30,11 +30,11 @@
 
 <div class="grid grid-wrapper-3">
     
-    <div class="red subgrid grid-item-1">
+    <div class="red subgrid grid-item-1 content">
         <h3 class="headline w subgrid-item-2">Locally Sourced</h3>
         
     </div>
-    <div class="orange subgrid grid-item-2">
+    <div class="orange subgrid grid-item-2 content">
             <h4 class="headline w subgrid-item-3">Our Future</h4>
 
     
