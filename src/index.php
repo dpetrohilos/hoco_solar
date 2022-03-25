@@ -32,9 +32,9 @@
 		</div>
 		<!-- /section -->
 	
-        <div>      <h2 class="intro">Howard County's Most Affordable Solar Farm</h2> 
+        <div>      <h2 class="intro w">Howard County's Most Affordable Solar Farm</h2> 
 </div>
-        <div>            <p>Est. 2022</p>
+        <div>            <p class="w">Est. 2022</p>
         </div>
         <div>                <img height="340" width="120" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hoco.svg" alt="Hoco " class="logo-img">
 </div>

@@ -56,6 +56,14 @@ $nav: 1.2rem;
 
 .sidebar {border: $orange solid 2px; 
     color: $orange;}
+
+.w {
+    color: $white; 
+}
+
+.o {
+    color: $orange; 
+}
 /**
  * Grid
  */
@@ -130,30 +138,26 @@ $margin-vertical-large: 1.6rem;
 
     div:nth-child(1) {
     grid-column: 1 / span 14;
-    grid-row: 1 / span 14;
-    
-
-        
+    grid-row: 1 / span 14;  
     }
     
     div:nth-child(2) {
-            grid-column: 15 / span 10;
+    grid-column: 15 / span 10;
     grid-row: 1 / span 14;    
-
     }
     
-        div:nth-child(3) {
-            grid-column: 15 / span 10;
+    div:nth-child(3) {
+    grid-column: 15 / span 10;
     grid-row: 1 / span 14;    
-
     }
-        div:nth-child(4) {
-            grid-column: 15 / span 10;
-    grid-row: 1 / span 14;    
-
+    
+    div:nth-child(4) {
+    grid-column: 2 / span 4;
+    grid-row: 1 / span 1;
     }
-        div:nth-child(5) {
-            grid-column: 15 / span 10;
+    
+    div:nth-child(5) {
+    grid-column: 15 / span 10;
     grid-row: 1 / span 14;    
 
     }
