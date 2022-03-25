@@ -179,9 +179,34 @@ $margin-vertical-large: 1.6rem;
     }
     
     
-    div:nth-child(1) {}
+    div:nth-child(1) {
+    gird-column: 1 / span 8; 
+    grid-column: 1 / span 4;
+        
+    }
     
-    div:nth-child(2) {}
+    div:nth-child(2) {
+    gird-column: 9 / span 8; 
+    grid-column: 1 / span 4;
+
+        
+    }
+    
+    div:nth-child(3) {
+    gird-column: 17 / span 8; 
+    grid-column: 1 / span 8;
+
+        
+    }
+
+    div:nth-child(4) {
+    gird-column: 1 / span 16; 
+    grid-column: 4 / span 4;
+
+        
+    }
+
+
     
 
     
