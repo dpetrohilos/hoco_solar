@@ -471,21 +471,22 @@ input[type="search"] {
 /* line 108, css/sass/partials/nav.scss */
 .nav-icon span:nth-child(1) {
   top: 0px;
-  left: 1.8rem;
+  left: 100%;
   width: 1.8rem; }
 
 /* line 114, css/sass/partials/nav.scss */
 .nav-icon span:nth-child(2) {
   top: 1.2rem;
   width: 2.8rem;
-  left: .8rem; }
+  left: 100%; }
 
 /* line 120, css/sass/partials/nav.scss */
 .nav-icon span:nth-child(3) {
   top: 2.4rem;
-  width: 3.6rem; }
+  width: 3.6rem;
+  left: 100%; }
 
-/* line 125, css/sass/partials/nav.scss */
+/* line 127, css/sass/partials/nav.scss */
 .nav-icon.change span:nth-child(1) {
   top: 1.2rem;
   -webkit-transform: rotate(135deg);
@@ -493,12 +494,12 @@ input[type="search"] {
   width: 3.6rem;
   left: 0; }
 
-/* line 133, css/sass/partials/nav.scss */
+/* line 135, css/sass/partials/nav.scss */
 .nav-icon.change span:nth-child(2) {
   opacity: 0;
   left: -60px; }
 
-/* line 138, css/sass/partials/nav.scss */
+/* line 140, css/sass/partials/nav.scss */
 .nav-icon.change span:nth-child(3) {
   top: 1.2rem;
   -webkit-transform: rotate(-135deg);
