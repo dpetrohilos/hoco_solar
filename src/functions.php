@@ -83,10 +83,8 @@ function html5blank_nav() {
         'items_wrap'      => '<ul>%3$s</ul>',
         'depth'           => 0,
         'walker'          => '',
-        ));
         
         
-        array(
         'theme_location'  => 'footer-1',
         'menu'            => '',
         'container'       => 'div',
@@ -103,9 +101,7 @@ function html5blank_nav() {
         'items_wrap'      => '<ul class="changa">%3$s</ul>',
         'depth'           => 0,
         'walker'          => '',
-        ));
         
-        array(
         'theme_location'  => 'footer-2',
         'menu'            => '',
         'container'       => 'div',
