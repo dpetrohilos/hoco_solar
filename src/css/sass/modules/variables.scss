@@ -16,6 +16,11 @@ margin-block-start: 1rem;
 margin-block-end: 1rem;    
 }
 
+p {
+    margin-block-start: 0;
+    margin-block-end: 1em;
+}
+
 
 .headline {font-size: 7.2rem; text-transform: uppercase}
 .subhead {font-size: 2.2rem; }
