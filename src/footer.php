@@ -2,13 +2,17 @@
 			<footer class="footer grid grid-wrapper-4" role="contentinfo">
 
 				
-                <nav class="footer-nav">
+                <nav class="footer-nav changa">
+                      <?php html5blank_nav('footer-1'); ?>
+    
                 </nav>
-                <nav class="footer-nav">
+                <nav class="footer-nav changa">
+                      <?php html5blank_nav('footer-2'); ?>
+    
                 </nav>
                 
                 
-                <div class="grid-item-3"><h6 class="big">Questions?</h6>
+                <div class="grid-item-3 changa"><h6 class="big">Questions?</h6>
                     <p>Info at hocosolarfarm dot com</p>
                 
                 </div>
@@ -19,10 +23,10 @@
 							<img height="122" width="324" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/HC-White.svg" alt="Howard County Solar Farm" class="logo-img">
 						</a>
 					</div>
-                <div class="grid-item-5">
+                <div class="grid-item-5 changa">
                 <!-- copyright -->
 			    <?php
-				    printf( '<p class="copyright">' . __( '&copy; %1$s Copyright %2$s. Powered by <a href="%3$s" title="WordPress">WordPress</a> &amp; <a href="%4$s" title="HTML5 Blank">HTML5 Blank</a>.', 'html5blank' ) . 'Designed by <a href="repeater.digital" title="link to Repeater Digital Site">Repeater.Digital</p>',
+				    printf( '<p class="copyright changa ">' . __( '&copy; %1$s Copyright %2$s. Powered by <a href="%3$s" title="WordPress">WordPress</a> &amp; <a href="%4$s" title="HTML5 Blank">HTML5 Blank</a>.', 'html5blank' ) . 'Designed by <a href="repeater.digital" title="link to Repeater Digital Site">Repeater.Digital</p>',
 				    	date( 'Y'),
 				    	esc_html( get_bloginfo( 'name' ) ),
 				    	'//wordpress.org',
