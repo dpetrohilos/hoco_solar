@@ -16,7 +16,7 @@
         
         
 		<!-- section -->
-		<div class="light content">
+		<div class="light content subgrid">
             
             <div>
 
@@ -44,11 +44,11 @@
 
 <div class="grid grid-item-3">
     
-    <div class="red">
+    <div class="red subgrid">
         <h3 class="headline w">Locally Sourced</h3>
         
     </div>
-    <div class="orange">
+    <div class="orange subgrid">
             <h4 class="headline w">Our Future</h4>
 
     
