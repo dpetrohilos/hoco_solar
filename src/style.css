@@ -134,8 +134,12 @@ h1, h2, h3, h4, h5, h6 {
 .grid-item-2 div:nth-child(5) {
   grid-column: 15 / span 10;
   grid-row: 1 / span 14; }
+/* line 164, css/sass/modules/variables.scss */
+.grid-item-2 div:nth-child(6) {
+  grid-column: 15 / span 10;
+  grid-row: 1 / span 14; }
 
-/* line 171, css/sass/modules/variables.scss */
+/* line 178, css/sass/modules/variables.scss */
 .grid-item-3 img, .grid-item-3 div {
   border-radius: 1rem; }
 
