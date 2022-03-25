@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
 /* line 152, ../css/sass/modules/variables.scss */
 .grid-item-2 div:nth-child(3) {
   grid-column: 2 / span 10;
-  grid-row: 1 / span 4; }
+  grid-row: 2 / span 4; }
 /* line 156, ../css/sass/modules/variables.scss */
 .grid-item-2 div:nth-child(4) {
   grid-column: 2 / span 4;
