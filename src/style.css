@@ -613,10 +613,10 @@ input[type="search"] {
   margin-top: 1.2rem; }
   /* line 15, css/sass/partials/footer.scss */
   .footer a {
-    color: #F7790E; }
+    color: #fff; }
     /* line 19, css/sass/partials/footer.scss */
     .footer a:hover {
-      color: #FFE4B1; }
+      color: #F7790E; }
   /* line 27, css/sass/partials/footer.scss */
   .footer ul li {
     list-style: none;
