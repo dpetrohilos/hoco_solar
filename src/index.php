@@ -18,8 +18,7 @@
 		<!-- section -->
 		<div class="light content">
 
-            <h1 class="big">10% OFF
-                <br><small>All future electric bills</small></h1>
+            <h1 class="big">10% OFF <small>All future electric bills</small></h1>
             <p>Save 10%, even if you rent. Limited availability. Sign up today.</p>
 
 		</div>
