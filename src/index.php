@@ -40,32 +40,30 @@
     
     </div>
     <div class="sidebar grid-item-3 text-center">
-    
-        <p>No construction, no cost, no hassle.</p>
-    
+        
+    <img height="120" width="120" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/icon/icon1.svg" alt="No Construction">
+
+        <p class="subhead o">No construction, no cost, no hassle.</p>
+        <img height="120" width="120" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/icon/icon3.svg" alt="No Construction">
+
+        <p class="subhead o">Simply sign up and save 
+money.</p>
+
+            <img height="120" width="120" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/icon/icon2.svg" alt="No Construction">
+
+        <p class="subhead o">Fight climate change with community solar.</p>
+
     
     </div>
     
 <div class="grid-item-4">
 
-<img height="1200" width="1200" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/img-2.jpg" alt="Beautiful Photo Of A Solar Farm" >
+<img height="1200" width="1200" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/img-2.jpg" alt="Beautiful Photo Of A Solar Farm" class="wtf">
        
     </div>
-    <div class="grid-item-5 content">
+    <div class="grid-item-5">
     
-<img height="240" width="240" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/icon/icon1.svg" alt="Solar Energy Independence">
-           <p class="subhead w">Solar Energy Independence</p> 
-        
-        <img height="240" width="240" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/icon/icon2.svg" alt="Simply sign up and save 
-money">
-<p class="subhead w">Simply sign up and save 
-money</p> 
-
-        
-    <img height="240" width="240" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/icon/icon3.svg" alt="Fight climate change with community solar">
-           <p class="subhead w">Fight climate change with community solar</p> 
-
-        
+           <h5 class="headline w">Solar Energy Independence</h4> 
 
     </div>
 
