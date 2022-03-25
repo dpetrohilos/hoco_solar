@@ -31,7 +31,7 @@
 </div>
         <div>            <p>Est. 2022</p>
         </div>
-        <div>                <img height="1200" width="1200" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hoco" alt="Hoco " class="logo-img">
+        <div>                <img height="340" width="120" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hoco.svg" alt="Hoco " class="logo-img">
 </div>
 
 </main>
