@@ -34,7 +34,9 @@
 </div>
         <div>            <p class="w">Est. 2022</p>
         </div>
-        <div><img height="300" width="78" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hoco.svg" alt="Hoco" class="no">
+        <div>
+            
+        <img height="72" width="48" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hoco.svg" alt="Hoco " class="no">
 </div>
         
         <div>
