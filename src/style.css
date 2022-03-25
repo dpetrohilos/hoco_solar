@@ -492,7 +492,7 @@ input[type="search"] {
   -webkit-transform: rotate(135deg);
   transform: rotate(135deg);
   width: 3.6rem;
-  left: 0; }
+  left: 46%; }
 
 /* line 135, css/sass/partials/nav.scss */
 .nav-icon.change span:nth-child(2) {
@@ -503,7 +503,8 @@ input[type="search"] {
 .nav-icon.change span:nth-child(3) {
   top: 1.2rem;
   -webkit-transform: rotate(-135deg);
-  transform: rotate(-135deg); }
+  transform: rotate(-135deg);
+  left: 46%; }
 
 /**
  * partials/sidebar
