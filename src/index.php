@@ -21,7 +21,7 @@
         
         
 		<!-- section -->
-		<div class="light">
+		<div class="light content">
 
             <h1 class="big">10% OFF
                 <br><small>All future electric bills</small></h1>
