@@ -1,19 +1,40 @@
 <?php get_header(); ?>
 
-	<main role="main" aria-label="Content">
+	<main role="main" aria-label="Content" class="grid grid-item-2">
+        
+        <div>
+            
+        <figure>
+            
+            <figcaption><h2>Howard County's Most Affordable Solar Farm</h2> </figcaption>
+            <figcaption>Est. 2022</figcaption>
+            <figcaption></figcaption>
+
+
+            
+            </figure></div>
+        
+        
 		<!-- section -->
-		<section>
+		<div>
 
-			<h1><?php esc_html_e( 'Latest Posts', 'html5blank' ); ?></h1>
 
-			<?php get_template_part( 'loop' ); ?>
-
-			<?php get_template_part( 'pagination' ); ?>
-
-		</section>
+		</div>
 		<!-- /section -->
-	</main>
+	
 
-<?php get_sidebar(); ?>
+
+</main>
+
+
+<div class="grid grid-item-2">
+    
+    <div></div>
+    <div></div>
+    <div><?php get_sidebar(); ?></div>
+    <div></div>
+
+
+</div>
 
 <?php get_footer(); ?>

@@ -1,7 +1,28 @@
 			<!-- footer -->
-			<footer class="footer" role="contentinfo">
+			<footer class="footer grid grid-item-4" role="contentinfo">
 
-				<!-- copyright -->
+				
+                <nav class="footer-nav">
+                </nav>
+                <nav class="footer-nav">
+                </nav>
+                
+                <nav class="footer-nav">
+                </nav>
+                
+                <div><p class="big">Questions?</p>
+                    <p>Info at hocosolarfarm dot com</p>
+                
+                </div>
+                
+                	<div class="logo">
+						<a href="<?php echo esc_url( home_url() ); ?>">
+							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
+							<img height="122" width="324" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/HC-White.svg" alt="Howard County Solar Farm" class="logo-img">
+						</a>
+					</div>
+                
+                <!-- copyright -->
 			    <?php
 				    printf( '<p class="copyright">' . __( '&copy; %1$s Copyright %2$s. Powered by <a href="%3$s" title="WordPress">WordPress</a> &amp; <a href="%4$s" title="HTML5 Blank">HTML5 Blank</a>.', 'html5blank' ) . '</p>',
 				    	date( 'Y'),
