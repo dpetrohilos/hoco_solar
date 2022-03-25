@@ -18,7 +18,7 @@
 		<!-- section -->
 		<div class="light content subgrid">
             
-            <div>
+            <div class="subgrid-item-1">
 
             <h1 class="big">10% OFF <small>All future electric bills</small></h1>
             <p>Save 10%, even if you rent. Limited availability. Sign up today.</p>
@@ -45,11 +45,11 @@
 <div class="grid grid-item-3">
     
     <div class="red subgrid">
-        <h3 class="headline w">Locally Sourced</h3>
+        <h3 class="headline w subgrid-item-2">Locally Sourced</h3>
         
     </div>
     <div class="orange subgrid">
-            <h4 class="headline w">Our Future</h4>
+            <h4 class="headline w subgrid-item-3">Our Future</h4>
 
     
     </div>

@@ -109,6 +109,8 @@ $margin-vertical-large: 1.6rem;
 }
 
 
+// grid rows 
+
 .grid-item-1 {
     
     
@@ -232,5 +234,19 @@ $margin-vertical-large: 1.6rem;
 .grid-item-4 {}
 
 
+// sub grid content 
 
+.subgrid-item-1 {
+    
+        grid-column: 1 / span 16; 
+    grid-row: 6 / span 4;
+
+}
+
+.subgrid-item-2 {}
+
+.subgrid-item-3 {}
+
+
+// end front page 
  
