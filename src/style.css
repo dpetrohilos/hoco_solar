@@ -30,8 +30,8 @@ h1, h2, h3, h4, h5, h6 {
 p {
   -webkit-margin-before: 0;
           margin-block-start: 0;
-  -webkit-margin-after: 1em;
-          margin-block-end: 1em; }
+  -webkit-margin-after: 1rem;
+          margin-block-end: 1rem; }
 
 /* line 25, css/sass/modules/variables.scss */
 .headline {
