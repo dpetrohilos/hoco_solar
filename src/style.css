@@ -221,22 +221,22 @@ input[type="search"] {
  */
 /* line 16, css/sass/partials/wordpress.scss */
 .alignnone {
-  margin: 4px 16px 16px 0; }
+  margin: 0.4rem 1.6rem 1.6rem 0; }
 
 /* line 20, css/sass/partials/wordpress.scss */
 .aligncenter {
   display: block;
-  margin: 4px auto; }
+  margin: 0.4rem auto; }
 
 /* line 25, css/sass/partials/wordpress.scss */
 .alignright {
   float: right;
-  margin: 4px 0 16px 16px; }
+  margin: 0.4rem 0 1.6rem 1.6rem; }
 
 /* line 30, css/sass/partials/wordpress.scss */
 .alignleft {
   float: left;
-  margin: 4px 16px 16px 0; }
+  margin: 0.4rem 1.6rem 1.6rem 0; }
 
 /**
  * Gallery & images
@@ -246,7 +246,7 @@ input[type="search"] {
   background: #fff;
   border: thin solid #F0F0F0;
   max-width: 95%;
-  padding: 4px 4px;
+  padding: 0.4rem 0.4rem;
   text-align: center; }
   /* line 47, css/sass/partials/wordpress.scss */
   .wp-caption img {
@@ -261,7 +261,7 @@ input[type="search"] {
 .wp-caption .wp-caption-text,
 .gallery-caption {
   margin: 0;
-  padding: 0 4px 4px;
+  padding: 0 0.4rem 0.4rem;
   font-size: 140%;
   line-height: 1.4; }
 
@@ -289,8 +289,8 @@ input[type="search"] {
  */
 /* line 7, css/sass/partials/wrapper.scss */
 .wrapper {
-  max-width: 1280px;
-  padding: 0 16px;
+  max-width: 151.2rem;
+  padding: 0 1.6rem;
   margin: 0 auto;
   position: relative; }
 
