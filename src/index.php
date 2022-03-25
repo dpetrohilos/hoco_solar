@@ -44,12 +44,12 @@
     <img height="120" width="120" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/icon1.svg" alt="No Construction">
 
         <p class="subhead o changa">No construction, no cost, no hassle.</p>
-        <img height="120" width="120" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/icon3.svg" alt="No Construction">
+        <img height="120" width="120" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/icon3.svg" alt="Simple Signup">
 
         <p class="subhead o changa">Simply sign up and save 
 money.</p>
 
-            <img height="120" width="120" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/icon2.svg" alt="No Construction">
+            <img height="120" width="120" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/icon2.svg" alt="Fight Climate Change">
 
         <p class="subhead o changa">Fight climate change with community solar.</p>
 
