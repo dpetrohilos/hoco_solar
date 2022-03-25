@@ -32,7 +32,7 @@
         </div>
         <div>
             
-        <img height="720" width="480" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hoco@2x.png" alt="Hoco " class="no">
+        <img height="720" width="480" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hoco.svg" alt="Hoco " class="no">
 </div>
         
         <div>
