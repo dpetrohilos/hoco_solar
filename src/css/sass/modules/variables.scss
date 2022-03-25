@@ -17,7 +17,13 @@ font-family: 'Changa One', cursive;
 .headline {font-size: 7.2rem; text-transform: uppercase}
 .subhead {font-size: 2.2rem; }
 .intro {font-size: 4.4rem; text-transform: uppercase}
-.big {font-size: 6rem; text-transform: uppercase}
+.big {font-size: 6rem; text-transform: uppercase; 
+
+    small, .small {
+        
+        font-size: 2rem; 
+    }
+}
 
 $font-family-base: 'Montserrat', sans-serif;
 $font-size-base: 140%;

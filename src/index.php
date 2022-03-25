@@ -23,7 +23,10 @@
 		<!-- section -->
 		<div class="light">
 
-            
+            <h1 class="big">10% OFF
+                <br><small>All future electric bills</small></h1>
+            <p>Save 10%, even if you rent.</p><p>
+            Limited availability.</p><p>Sign up today.</p>
             <img height="122" width="324" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/HC-Logo.svg" alt="Hoco " class="no">
 
 		</div>
