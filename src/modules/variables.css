@@ -88,21 +88,33 @@ h1, h2, h3, h4, h5, h6 {
     grid-column: 24 / span 1;
     grid-row: 1 / span 2; }
 
-/* line 121, ../css/sass/modules/variables.scss */
+/* line 122, ../css/sass/modules/variables.scss */
 .grid-item-2 img, .grid-item-2 div {
   border-radius: 1rem; }
-/* line 125, ../css/sass/modules/variables.scss */
+/* line 126, ../css/sass/modules/variables.scss */
 .grid-item-2 .no {
   border-radius: 0; }
-/* line 130, ../css/sass/modules/variables.scss */
+/* line 131, ../css/sass/modules/variables.scss */
 .grid-item-2 div:nth-child(1) {
   grid-column: 1 / span 14;
   grid-row: 1 / span 14; }
-/* line 138, ../css/sass/modules/variables.scss */
+/* line 139, ../css/sass/modules/variables.scss */
 .grid-item-2 div:nth-child(2) {
   grid-column: 15 / span 10;
   grid-row: 1 / span 14; }
+/* line 146, ../css/sass/modules/variables.scss */
+.grid-item-2 div:nth-child(3) {
+  grid-column: 24 / span 1;
+  grid-row: 1 / span 2; }
+/* line 151, ../css/sass/modules/variables.scss */
+.grid-item-2 div:nth-child(3) {
+  grid-column: 24 / span 1;
+  grid-row: 1 / span 2; }
+/* line 156, ../css/sass/modules/variables.scss */
+.grid-item-2 div:nth-child(3) {
+  grid-column: 24 / span 1;
+  grid-row: 1 / span 2; }
 
-/* line 150, ../css/sass/modules/variables.scss */
+/* line 167, ../css/sass/modules/variables.scss */
 .grid-item-3 img, .grid-item-3 div {
   border-radius: 1rem; }
