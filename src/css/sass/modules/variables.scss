@@ -113,6 +113,10 @@ $margin-vertical-large: 1.6rem;
     img, div {
         border-radius: 1rem; 
     }
+    
+    .no {
+        border-radius: 0; 
+    }
 
 
     div:nth-child(1) {

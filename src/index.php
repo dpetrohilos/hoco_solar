@@ -24,7 +24,7 @@
 		<div class="light">
 
             
-            <img height="322" width="122" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/HC-Logo.svg" alt="Hoco " class="logo-img">
+            <img height="122" width="324" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/HC-Logo.svg" alt="Hoco " class="no">
 
 		</div>
 		<!-- /section -->
