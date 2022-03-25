@@ -39,16 +39,35 @@
 
     
     </div>
-    <div class="sidebar grid-item-3"><?php get_sidebar(); ?></div>
+    <div class="sidebar grid-item-3 text-center">
+    
+        <p>No construction, no cost, no hassle.</p>
+    
+    
+    </div>
     
 <div class="grid-item-4">
 
-<img height="1200" width="1200" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/img-2.jpg" alt="Beautiful Photo Of A Solar Farm" class="wtf">
+<img height="1200" width="1200" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/img-2.jpg" alt="Beautiful Photo Of A Solar Farm" >
        
     </div>
-    <div class="grid-item-5">
+    <div class="grid-item-5 content">
     
-           <h5 class="headline w">Solar Energy Independence</h4> 
+        
+        
+        <img height="240" width="240" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/icon/icon1.svg" alt="Solar Energy Independence">
+           <p class="headline w">Solar Energy Independence</p> 
+        
+        <img height="240" width="240" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/icon/icon2.svg" alt="Simply sign up and save 
+money">
+           <p class="headline w">Simply sign up and save 
+money</p> 
+
+        
+        <img height="240" width="240" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/icon/icon3.svg" alt="Fight climate change with community solar">
+           <p class="headline w">Fight climate change with community solar</p> 
+
+        
 
     </div>
 
