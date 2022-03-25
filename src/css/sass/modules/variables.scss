@@ -167,11 +167,12 @@ $margin-vertical-large: 1.6rem;
     
     div.grid-item-3 {
     grid-column: 2 / span 10;
-    grid-row: 2 / span 4;    }
+    grid-row: 2 / span 4;    
+    }
     
     div.grid-item-4 {
     grid-column: 2 / span 4;
-    grid-row: 1 / span 1;
+    grid-row: 2 / span 1;    
     }
     
     div.grid-item-5 {

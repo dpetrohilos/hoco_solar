@@ -147,60 +147,60 @@ p {
 .grid-wrapper-2 div.grid-item-3 {
   grid-column: 2 / span 10;
   grid-row: 2 / span 4; }
-/* line 172, css/sass/modules/variables.scss */
+/* line 173, css/sass/modules/variables.scss */
 .grid-wrapper-2 div.grid-item-4 {
   grid-column: 2 / span 4;
-  grid-row: 1 / span 1; }
-/* line 177, css/sass/modules/variables.scss */
+  grid-row: 2 / span 1; }
+/* line 178, css/sass/modules/variables.scss */
 .grid-wrapper-2 div.grid-item-5 {
   grid-column: 2 / span 8;
   grid-row: 13 / span 2; }
-/* line 182, css/sass/modules/variables.scss */
+/* line 183, css/sass/modules/variables.scss */
 .grid-wrapper-2 div.grid-item-6 {
   grid-column: 16 / span 2;
   grid-row: 13 / span 1; }
 
-/* line 195, css/sass/modules/variables.scss */
+/* line 196, css/sass/modules/variables.scss */
 .grid-wrapper-3 img, .grid-wrapper-3 div {
   border-radius: 1rem; }
-/* line 200, css/sass/modules/variables.scss */
+/* line 201, css/sass/modules/variables.scss */
 .grid-wrapper-3 div.grid-item-1 {
   grid-column: 1 / span 8;
   grid-row: 1 / span 5; }
-/* line 206, css/sass/modules/variables.scss */
+/* line 207, css/sass/modules/variables.scss */
 .grid-wrapper-3 div.grid-item-2 {
   grid-column: 9 / span 8;
   grid-row: 1 / span 5; }
-/* line 213, css/sass/modules/variables.scss */
+/* line 214, css/sass/modules/variables.scss */
 .grid-wrapper-3 div.grid-item-3 {
   grid-column: 17 / span 8;
   grid-row: 1 / span 9; }
-/* line 220, css/sass/modules/variables.scss */
+/* line 221, css/sass/modules/variables.scss */
 .grid-wrapper-3 div.grid-item-4 {
   grid-column: 1 / span 16;
   grid-row: 6 / span 4; }
-/* line 227, css/sass/modules/variables.scss */
+/* line 228, css/sass/modules/variables.scss */
 .grid-wrapper-3 div.grid-item-5 {
   grid-column: 4 / span 10;
   grid-row: 7 / span 2; }
 
-/* line 242, css/sass/modules/variables.scss */
+/* line 243, css/sass/modules/variables.scss */
 .grid-wrapper-4 nav.footer-nav-1 {
   grid-column: 1 / span 8;
   grid-row: 1 / span 5; }
-/* line 248, css/sass/modules/variables.scss */
+/* line 249, css/sass/modules/variables.scss */
 .grid-wrapper-4 nav.footer-nav-2 {
   grid-column: 9 / span 8;
   grid-row: 1 / span 5; }
-/* line 257, css/sass/modules/variables.scss */
+/* line 258, css/sass/modules/variables.scss */
 .grid-wrapper-4 div.grid-item-3 {
   grid-column: 1 / span 16;
   grid-row: 6 / span 4; }
-/* line 264, css/sass/modules/variables.scss */
+/* line 265, css/sass/modules/variables.scss */
 .grid-wrapper-4 div.grid-item-4 {
   grid-column: 4 / span 10;
   grid-row: 7 / span 2; }
-/* line 270, css/sass/modules/variables.scss */
+/* line 271, css/sass/modules/variables.scss */
 .grid-wrapper-4 div.grid-item-5 {
   grid-column: 4 / span 10;
   grid-row: 7 / span 2; }
