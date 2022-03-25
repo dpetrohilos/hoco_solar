@@ -6,7 +6,6 @@
             
             
             
-        <figure>
             
     
 <img height="1200" width="1200" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/img-1.jpg" alt="Beautiful Photo Of A Solar Farm">
@@ -18,7 +17,7 @@
 
 
             
-            </figure></div>
+         </div>
         
         
 		<!-- section -->
