@@ -100,7 +100,12 @@ $margin-vertical-large: 1.6rem;
     }
 
 
-    div:nth-child(1) {}
+    div:nth-child(1) {
+    grid-column: 1 / span 12;
+    grid-row: 1 / span 12;    
+
+        
+    }
     
     div:nth-child(2) {}
     
