@@ -3,11 +3,6 @@
 	<main role="main" aria-label="Content" class="grid grid-item-2">
         
         <div>
-            
-            
-            
-            
-    
 <img height="1200" width="1200" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/img-1.jpg" alt="Beautiful Photo Of A Solar Farm">
 
             
@@ -36,7 +31,7 @@
         </div>
         <div>
             
-        <img height="72" width="48" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hoco.svg" alt="Hoco " class="no">
+        <img height="720" width="480" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hoco.svg" alt="Hoco " class="no">
 </div>
         
         <div>
