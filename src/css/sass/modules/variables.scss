@@ -10,7 +10,7 @@
 
 h1,h2,h3,h4,h5,h6 {
     
-    
+font-family: 'Changa One', cursive;    
 }
 
 $font-family-base: 'Montserrat', sans-serif;
@@ -24,7 +24,7 @@ $line-height-base: 1.4;
 
 $text-color: #444;
 $body-bg: #fff;
-$selection-bg: #04A4CC;
+$selection-bg: #EF3A01;
 
 $red: #EF3A01;
 $orange: #FB9D29;
@@ -34,7 +34,16 @@ $black: #0B0B0B;
 $white: #fff; 
 $nav: 1.2rem;
 
+.light {background: $third-orange; }
 
+.red {background: $red; 
+    color: $white; }
+
+.orange {background: $red; 
+    color: $white;}
+
+.sidebar {border: $orange solid 2px; 
+    color: $orange;}
 /**
  * Grid
  */
