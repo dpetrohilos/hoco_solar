@@ -53,15 +53,9 @@
     </div>
     <div class="sidebar"><?php get_sidebar(); ?></div>
     <div>
-    
-            
-    
-<img height="1200" width="1200" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/img-2.jpg" alt="Beautiful Photo Of A Solar Farm">
 
-            
-        
-
-            
+<img height="600" width="1200" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/img-2.jpg" alt="Beautiful Photo Of A Solar Farm">
+       
     </div>
     <div>
     
