@@ -43,15 +43,15 @@
         
     <img height="120" width="120" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/icon/icon1.svg" alt="No Construction">
 
-        <p class="subhead o">No construction, no cost, no hassle.</p>
+        <p class="subhead o changa">No construction, no cost, no hassle.</p>
         <img height="120" width="120" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/icon/icon3.svg" alt="No Construction">
 
-        <p class="subhead o">Simply sign up and save 
+        <p class="subhead o changa">Simply sign up and save 
 money.</p>
 
             <img height="120" width="120" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/icon/icon2.svg" alt="No Construction">
 
-        <p class="subhead o">Fight climate change with community solar.</p>
+        <p class="subhead o changa">Fight climate change with community solar.</p>
 
     
     </div>

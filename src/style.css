@@ -18,7 +18,7 @@ Description: Hoco Solar Farm Theme Based On HTML5 blank, FlexBox Grid
  * Typography
  */
 /* line 11, css/sass/modules/variables.scss */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, .changa {
   font-family: 'Changa One', cursive;
   line-height: 1;
   -webkit-margin-before: 1rem;
