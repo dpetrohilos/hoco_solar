@@ -53,18 +53,16 @@
     </div>
     <div class="grid-item-5 content">
     
-        
-        
-        <img height="240" width="240" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/icon/icon1.svg" alt="Solar Energy Independence">
+<img height="240" width="240" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/icon/icon1.svg" alt="Solar Energy Independence">
            <p class="headline w">Solar Energy Independence</p> 
         
         <img height="240" width="240" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/icon/icon2.svg" alt="Simply sign up and save 
 money">
-           <p class="headline w">Simply sign up and save 
+<p class="headline w">Simply sign up and save 
 money</p> 
 
         
-        <img height="240" width="240" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/icon/icon3.svg" alt="Fight climate change with community solar">
+    <img height="240" width="240" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/icon/icon3.svg" alt="Fight climate change with community solar">
            <p class="headline w">Fight climate change with community solar</p> 
 
         
