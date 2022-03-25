@@ -629,9 +629,9 @@ input[type="search"] {
 /* line 7, css/sass/partials/footer.scss */
 .footer {
   background: #0B0B0B;
-  padding: 1.2rem;
   border-radius: 1rem;
-  color: #fff; }
+  color: #fff;
+  margin-top: 1.2rem; }
 
 /**
  * partials/print
