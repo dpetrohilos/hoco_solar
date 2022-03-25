@@ -17,10 +17,12 @@
         
 		<!-- section -->
 		<div class="light content">
+            
+            <div>
 
             <h1 class="big">10% OFF <small>All future electric bills</small></h1>
             <p>Save 10%, even if you rent. Limited availability. Sign up today.</p>
-
+            </div>
 		</div>
 		<!-- /section -->
 	
@@ -30,7 +32,7 @@
         </div>
         <div>
             
-        <img height="720" width="480" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hoco@2x.png" alt="Hoco " class="no">
+        <img height="720" width="480" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hoco@2x.png" alt="Hoco " class="no top">
 </div>
         
         <div>
