@@ -1,5 +1,5 @@
 			<!-- footer -->
-			<footer class="footer grid grid-item-4" role="contentinfo">
+			<footer class="footer grid grid-wrapper-4" role="contentinfo">
 
 				
                 <nav class="footer-nav">

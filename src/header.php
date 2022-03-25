@@ -44,7 +44,7 @@
 <div class="wrapper">
 
 			<!-- header -->
-			<header class="header grid grid-item-1" role="banner">
+			<header class="header grid grid-wrapper-1" role="banner">
 
 					<!-- logo -->
 					<div class="logo">
