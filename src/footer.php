@@ -7,21 +7,19 @@
                 <nav class="footer-nav">
                 </nav>
                 
-                <nav class="footer-nav">
-                </nav>
                 
-                <div><p class="big">Questions?</p>
+                <div class="grid-item-3"><h6 class="big">Questions?</h6>
                     <p>Info at hocosolarfarm dot com</p>
                 
                 </div>
                 
-                	<div class="logo">
+                	<div class="logo grid-item-4">
 						<a href="<?php echo esc_url( home_url() ); ?>">
 							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
 							<img height="122" width="324" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/HC-White.svg" alt="Howard County Solar Farm" class="logo-img">
 						</a>
 					</div>
-                
+                <div class="grid-item-5">
                 <!-- copyright -->
 			    <?php
 				    printf( '<p class="copyright">' . __( '&copy; %1$s Copyright %2$s. Powered by <a href="%3$s" title="WordPress">WordPress</a> &amp; <a href="%4$s" title="HTML5 Blank">HTML5 Blank</a>.', 'html5blank' ) . 'Designed by <a href="repeater.digital" title="link to Repeater Digital Site">Repeater.Digital</p>',
@@ -32,7 +30,7 @@
 					);
 				?>
 				<!-- /copyright -->
-
+                </div>
 			</footer>
 			<!-- /footer -->
 
