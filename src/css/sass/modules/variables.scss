@@ -183,35 +183,34 @@ $margin-vertical-large: 1.6rem;
     
     div:nth-child(1) {
     grid-column: 1 / span 8; 
-    grid-row: 1 / span 4;
+    grid-row: 1 / span 5;
         
     }
     
     div:nth-child(2) {
     grid-column: 9 / span 8; 
-    grid-row: 1 / span 4;
+    grid-row: 1 / span 5;
 
         
     }
     
     div:nth-child(3) {
     grid-column: 17 / span 8; 
-    grid-row: 1 / span 8;
+    grid-row: 1 / span 9;
 
         
     }
 
     div:nth-child(4) {
     grid-column: 1 / span 16; 
-    grid-row: 4 / span 4;
+    grid-row: 6 / span 4;
 
         
     }
 
     div:nth-child(5) {
-    grid-column: 1 / span 16; 
-    grid-row: 4 / span 4;
-
+    grid-column: 4 / span 10;
+    grid-row: 7 / span 2;
         
     }
     
