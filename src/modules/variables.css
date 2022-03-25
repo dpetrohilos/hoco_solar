@@ -137,21 +137,21 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 1rem; }
 /* line 184, ../css/sass/modules/variables.scss */
 .grid-item-3 div:nth-child(1) {
-  gird-column: 1 / span 8;
+  grid-column: 1 / span 8;
   grid-row: 1 / span 4; }
 /* line 190, ../css/sass/modules/variables.scss */
 .grid-item-3 div:nth-child(2) {
-  gird-column: 9 / span 8;
+  grid-column: 9 / span 8;
   grid-row: 1 / span 4; }
 /* line 197, ../css/sass/modules/variables.scss */
 .grid-item-3 div:nth-child(3) {
-  gird-column: 17 / span 8;
+  grid-column: 17 / span 8;
   grid-row: 1 / span 8; }
 /* line 204, ../css/sass/modules/variables.scss */
 .grid-item-3 div:nth-child(4) {
-  gird-column: 1 / span 16;
+  grid-column: 1 / span 16;
   grid-row: 4 / span 4; }
 /* line 211, ../css/sass/modules/variables.scss */
 .grid-item-3 div:nth-child(5) {
-  gird-column: 1 / span 16;
+  grid-column: 1 / span 16;
   grid-row: 4 / span 4; }
