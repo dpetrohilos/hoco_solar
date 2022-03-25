@@ -39,7 +39,7 @@
 
     
     </div>
-    <div class="sidebar grid-item-3 text-center content">
+    <div class="sidebar grid-item-3 text-center content v-center h-center">
         
     <img height="120" width="120" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/icon1.svg" alt="No Construction">
 
