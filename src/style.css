@@ -19,68 +19,69 @@ Description: Hoco Solar Farm Theme Based On HTML5 blank, FlexBox Grid
  */
 /* line 11, css/sass/modules/variables.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Changa One', cursive; }
+  font-family: 'Changa One', cursive;
+  line-height: 1; }
 
-/* line 17, css/sass/modules/variables.scss */
+/* line 18, css/sass/modules/variables.scss */
 .headline {
   font-size: 7.2rem;
   text-transform: uppercase; }
 
-/* line 18, css/sass/modules/variables.scss */
+/* line 19, css/sass/modules/variables.scss */
 .subhead {
   font-size: 2.2rem; }
 
-/* line 19, css/sass/modules/variables.scss */
+/* line 20, css/sass/modules/variables.scss */
 .intro {
   font-size: 4.4rem;
   text-transform: uppercase; }
 
-/* line 20, css/sass/modules/variables.scss */
+/* line 21, css/sass/modules/variables.scss */
 .big {
   font-size: 6rem;
   text-transform: uppercase; }
-  /* line 22, css/sass/modules/variables.scss */
+  /* line 23, css/sass/modules/variables.scss */
   .big small, .big .small {
     font-size: 2rem; }
 
 /**
  * Colors
  */
-/* line 49, css/sass/modules/variables.scss */
+/* line 50, css/sass/modules/variables.scss */
 .light {
   background: #FFE4B1; }
 
-/* line 51, css/sass/modules/variables.scss */
+/* line 52, css/sass/modules/variables.scss */
 .red {
   background: #EF3A01;
   color: #fff; }
 
-/* line 54, css/sass/modules/variables.scss */
+/* line 55, css/sass/modules/variables.scss */
 .orange {
   background: #EF3A01;
   color: #fff; }
 
-/* line 57, css/sass/modules/variables.scss */
+/* line 58, css/sass/modules/variables.scss */
 .sidebar {
   border: #FB9D29 solid 2px;
   color: #FB9D29; }
 
-/* line 60, css/sass/modules/variables.scss */
+/* line 61, css/sass/modules/variables.scss */
 .w {
   color: #fff; }
 
-/* line 64, css/sass/modules/variables.scss */
+/* line 65, css/sass/modules/variables.scss */
 .o {
   color: #FB9D29; }
 
 /**
  * Grid
  */
-/* line 73, css/sass/modules/variables.scss */
+/* line 74, css/sass/modules/variables.scss */
 .content {
   padding: 1.2rem; }
 
-/* line 84, css/sass/modules/variables.scss */
+/* line 85, css/sass/modules/variables.scss */
 .grid {
   display: grid;
   grid-template-rows: 3.2rem;
@@ -92,54 +93,54 @@ h1, h2, h3, h4, h5, h6 {
   grid-column-gap: 1.6rem;
   grid-row-gap: 1.6rem; }
 
-/* line 100, css/sass/modules/variables.scss */
+/* line 101, css/sass/modules/variables.scss */
 .grid-item-1 {
   /* Start First Row*/ }
-  /* line 105, css/sass/modules/variables.scss */
+  /* line 106, css/sass/modules/variables.scss */
   .grid-item-1 div:nth-child(1) {
     grid-column: 1 / span 12;
     grid-row: 1 / span 4; }
-  /* line 111, css/sass/modules/variables.scss */
+  /* line 112, css/sass/modules/variables.scss */
   .grid-item-1 div:nth-child(2) {
     grid-column: 23 / span 1;
     grid-row: 1 / span 2; }
-  /* line 115, css/sass/modules/variables.scss */
+  /* line 116, css/sass/modules/variables.scss */
   .grid-item-1 div:nth-child(3) {
     grid-column: 24 / span 1;
     grid-row: 1 / span 2; }
 
-/* line 130, css/sass/modules/variables.scss */
+/* line 131, css/sass/modules/variables.scss */
 .grid-item-2 img, .grid-item-2 div {
   border-radius: 1rem; }
-/* line 134, css/sass/modules/variables.scss */
+/* line 135, css/sass/modules/variables.scss */
 .grid-item-2 .no {
   border-radius: 0; }
-/* line 139, css/sass/modules/variables.scss */
+/* line 140, css/sass/modules/variables.scss */
 .grid-item-2 div:nth-child(1) {
   grid-column: 1 / span 14;
   grid-row: 1 / span 14; }
-/* line 144, css/sass/modules/variables.scss */
+/* line 145, css/sass/modules/variables.scss */
 .grid-item-2 div:nth-child(2) {
   grid-column: 15 / span 10;
   grid-row: 1 / span 14; }
-/* line 149, css/sass/modules/variables.scss */
+/* line 150, css/sass/modules/variables.scss */
 .grid-item-2 div:nth-child(3) {
   grid-column: 2 / span 10;
   grid-row: 1 / span 4; }
-/* line 153, css/sass/modules/variables.scss */
+/* line 154, css/sass/modules/variables.scss */
 .grid-item-2 div:nth-child(4) {
   grid-column: 2 / span 4;
   grid-row: 1 / span 1; }
-/* line 158, css/sass/modules/variables.scss */
+/* line 159, css/sass/modules/variables.scss */
 .grid-item-2 div:nth-child(5) {
   grid-column: 15 / span 10;
   grid-row: 1 / span 14; }
-/* line 164, css/sass/modules/variables.scss */
+/* line 165, css/sass/modules/variables.scss */
 .grid-item-2 div:nth-child(6) {
   grid-column: 15 / span 10;
   grid-row: 1 / span 14; }
 
-/* line 178, css/sass/modules/variables.scss */
+/* line 179, css/sass/modules/variables.scss */
 .grid-item-3 img, .grid-item-3 div {
   border-radius: 1rem; }
 

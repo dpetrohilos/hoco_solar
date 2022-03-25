@@ -25,8 +25,7 @@
 
             <h1 class="big">10% OFF
                 <br><small>All future electric bills</small></h1>
-            <p>Save 10%, even if you rent.</p><p>
-            Limited availability.</p><p>Sign up today.</p>
+            <p>Save 10%, even if you rent. Limited availability. Sign up today.</p>
 
 		</div>
 		<!-- /section -->
