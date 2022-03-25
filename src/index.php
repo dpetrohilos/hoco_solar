@@ -43,11 +43,11 @@
 <div class="grid grid-item-3">
     
     <div class="red">
-        <h3 class="headline">Locally Sourced</h3>
+        <h3 class="headline w">Locally Sourced</h3>
         
     </div>
     <div class="orange">
-            <h4 class="headline">Our Future</h4>
+            <h4 class="headline w">Our Future</h4>
 
     
     </div>
@@ -59,7 +59,7 @@
     </div>
     <div>
     
-           <h5 class="headline">Solar Energy Independence</h4> 
+           <h5 class="headline w">Solar Energy Independence</h4> 
 
     </div>
 
