@@ -86,7 +86,7 @@ $nav: 1.2rem;
  * Grid
  */
 
-$wrapper-width: 151.2rem;
+$wrapper-width: min(90vw, 151.2rem);
 
 .content {
     padding: 3.4rem 6rem;  
