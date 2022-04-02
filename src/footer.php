@@ -12,7 +12,7 @@
                 </nav>
                 
                 
-                <div class="grid-item-3 grid-item changa"><h6 class="intro top">Questions?</h6>
+                <div class="grid-item-3 grid-item changa"><h6 class="intro content-tb">Questions?</h6>
                     <p>Info at hocosolarfarm dot com</p>
                 
                 </div>
