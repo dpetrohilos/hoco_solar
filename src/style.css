@@ -211,6 +211,11 @@ p {
   grid-column: 4 / span 10;
   grid-row: 7 / span 2; }
 
+/* line 261, css/sass/modules/variables.scss */
+.form-paper {
+  display: block;
+  height: 64rem; }
+
 /**
  * modules/mixins
  * ---

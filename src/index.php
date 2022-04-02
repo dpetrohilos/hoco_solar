@@ -11,7 +11,7 @@
             <h1 class="big">10% OFF <small>All future electric bills</small></h1>
             <p>Save 10%, even if you rent. Limited availability. Sign up today.</p>
                 
-            <div prefill="bg_id=MaxedOutSolar" data-paperform-id="hocosolarfarm"></div><script>(function() {var script = document.createElement('script'); script.src = "https://paperform.co/__embed.min.js"; document.body.appendChild(script); })()</script>
+            <div class="form-paper" prefill="bg_id=MaxedOutSolar" data-paperform-id="hocosolarfarm"></div><script>(function() {var script = document.createElement('script'); script.src = "https://paperform.co/__embed.min.js"; document.body.appendChild(script); })()</script>
     
                 
             </div>
