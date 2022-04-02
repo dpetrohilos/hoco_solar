@@ -267,11 +267,11 @@ p {
     grid-row: 19 / span 6; }
 
   /* line 374, ../css/sass/modules/variables.scss */
-  .grid-wrapper-4 .grid-item-1 {
+  .grid-wrapper-4 nav.grid-item-1 {
     grid-column: 1 / span 12;
     grid-row: 1 / span 5; }
   /* line 380, ../css/sass/modules/variables.scss */
-  .grid-wrapper-4 .grid-item-2 {
+  .grid-wrapper-4 nav.grid-item-2 {
     grid-column: 1 / span 12;
     grid-row: 6 / span 5; }
   /* line 387, ../css/sass/modules/variables.scss */
