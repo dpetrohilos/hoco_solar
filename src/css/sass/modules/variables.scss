@@ -164,8 +164,10 @@ $margin-vertical-large: 1.6rem;
     
     .bg-cover {
         
-        background-image: url(img/img-1.jpg);
-        background-size: contain;
+        background: url(img/img-2.jpg), url(img/hoco@2x.png;) ;
+        background-size: contain, 400px 320px ;
+        background-repeat: no-repeat;
+        background-position: center center, bottom left; 
         
     }
     
@@ -255,8 +257,9 @@ $margin-vertical-large: 1.6rem;
     
         .bg-cover-2 {
         
-        background-image: url(img/img-2.jpg);
+        background: url(img/img-2.jpg) no-repeat;
         background-size: contain;
+            
         
     }
 
