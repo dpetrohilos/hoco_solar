@@ -5,7 +5,7 @@
 
 
 .wrapper {
-  max-width: $wrapper-width;
+  max-width: min(90vw, 151.2rem);
   padding: 0 $margin-horizontal-large;
   margin: 0 auto;
   position: relative;

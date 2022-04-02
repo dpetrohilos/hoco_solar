@@ -1,11 +1,23 @@
 /*
-Error: Incompatible units: 'rem' and '%'.
-        on line 89 of /Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/modules/variables.scss
-        from line 16 of /Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/style.scss
+Error: Incompatible units: 'rem' and 'vw'.
+        on line 8 of /Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/partials/wrapper.scss
+        from line 24 of /Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/style.scss
+
+3: Theme URI: https://github.com/dpetrohilos/hoco_solar   
+4: Author: Dylan Petrohilos 
+5: Author URI: repeater.digital
+6: Description: Hoco Solar Farm Theme Based On HTML5 blank, FlexBox Grid    
+7: *\/
+8: 
+9: /**
+10:  * styles.scss
+11:  * ---
+12:  * Main `sass` file. Import here `sass` files
+13:  *\/
 
 Backtrace:
-/Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/modules/variables.scss:89
-/Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/style.scss:16
+/Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/partials/wrapper.scss:8
+/Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/style.scss:24
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/value/number.rb:449:in `coercion_factor'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/value/number.rb:370:in `coerce'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/value/number.rb:430:in `operate'
@@ -16,7 +28,18 @@ Backtrace:
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/functions.rb:1795:in `min'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/funcall.rb:143:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/script/tree/node.rb:58:in `perform'
-/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:472:in `visit_variable'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block (2 levels) in visit_rule'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `map'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:434:in `block in visit_rule'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:432:in `visit_rule'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
@@ -68,4 +91,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Incompatible units: 'rem' and '%'.\A         on line 89 of /Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/modules/variables.scss\A         from line 16 of /Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/style.scss"; }
+  content: "Error: Incompatible units: 'rem' and 'vw'.\A         on line 8 of /Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/partials/wrapper.scss\A         from line 24 of /Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/style.scss\A \A 3: Theme URI: https://github.com/dpetrohilos/hoco_solar   \A 4: Author: Dylan Petrohilos \A 5: Author URI: repeater.digital\A 6: Description: Hoco Solar Farm Theme Based On HTML5 blank, FlexBox Grid    \A 7: */\A 8: \A 9: /**\A 10:  * styles.scss\A 11:  * ---\A 12:  * Main `sass` file. Import here `sass` files\A 13:  */"; }
