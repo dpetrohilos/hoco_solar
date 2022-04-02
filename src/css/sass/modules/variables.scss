@@ -242,13 +242,13 @@ $margin-vertical-large: 1.6rem;
 .grid-wrapper-4 {
     
         
-    nav.footer-nav-1 {
+    div.grid-item-1 {
     grid-column: 1 / span 12; 
     grid-row: 1 / span 5;
         
     }
     
-    nav.footer-nav-2 {
+    div.grid-item-2 {
     grid-column: 13 / span 8; 
     grid-row: 1 / span 5;
 
@@ -385,9 +385,8 @@ div.grid-item-2 {
     }
     
     div.grid-item-3 {
-    grid-column: 1 / span 12; 
-    grid-row: 7 / span 2;
-
+    grid-column: 6 / span 8;
+    grid-row: 5 / span 2;
         
     }
 

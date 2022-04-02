@@ -2,11 +2,11 @@
 			<footer class="footer grid grid-wrapper-4 content" role="contentinfo">
 
 				
-                <nav class="footer-nav changa grid-item">
+                <nav class="footer-nav grid-item-1 changa grid-item">
                       <?php html5blank_nav('footer-1'); ?>
     
                 </nav>
-                <nav class="footer-nav changa grid-item">
+                <nav class="footer-nav grid-item-2 changa grid-item">
                       <?php html5blank_nav('footer-2'); ?>
     
                 </nav>
