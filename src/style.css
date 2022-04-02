@@ -294,7 +294,7 @@ p {
   /* line 386, css/sass/modules/variables.scss */
   .grid-wrapper-3 div.grid-item-4 {
     grid-column: 1 / span 12;
-    grid-row: 19 / span 6; }
+    grid-row: 19 / span 20; }
 
   /* line 398, css/sass/modules/variables.scss */
   .grid-wrapper-4 nav.grid-item-1 {
