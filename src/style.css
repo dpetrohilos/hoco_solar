@@ -1,5 +1,5 @@
 /*
-Error: Incompatible units: 'rem' and 'vw'.
+Error: Incompatible units: 'rem' and '%'.
         on line 89 of /Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/modules/variables.scss
         from line 16 of /Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/style.scss
 
@@ -68,4 +68,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Incompatible units: 'rem' and 'vw'.\A         on line 89 of /Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/modules/variables.scss\A         from line 16 of /Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/style.scss"; }
+  content: "Error: Incompatible units: 'rem' and '%'.\A         on line 89 of /Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/modules/variables.scss\A         from line 16 of /Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/style.scss"; }

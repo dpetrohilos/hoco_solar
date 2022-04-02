@@ -1,5 +1,5 @@
 /*
-Error: Incompatible units: 'rem' and 'vw'.
+Error: Incompatible units: 'rem' and '%'.
         on line 89 of /Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/modules/variables.scss
 
 84: }
@@ -7,7 +7,7 @@ Error: Incompatible units: 'rem' and 'vw'.
 86:  * Grid
 87:  *\/
 88: 
-89: $wrapper-width: min(90vw, 151.2rem);
+89: $wrapper-width: min(90%, 151.2rem);
 90: 
 91: .content {
 92:     padding: 3.4rem 6rem;  
@@ -65,4 +65,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Incompatible units: 'rem' and 'vw'.\A         on line 89 of /Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/modules/variables.scss\A \A 84: }\A 85: /**\A 86:  * Grid\A 87:  */\A 88: \A 89: $wrapper-width: min(90vw, 151.2rem);\A 90: \A 91: .content {\A 92:     padding: 3.4rem 6rem;  \A 93: }\A 94: "; }
+  content: "Error: Incompatible units: 'rem' and '%'.\A         on line 89 of /Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/modules/variables.scss\A \A 84: }\A 85: /**\A 86:  * Grid\A 87:  */\A 88: \A 89: $wrapper-width: min(90%, 151.2rem);\A 90: \A 91: .content {\A 92:     padding: 3.4rem 6rem;  \A 93: }\A 94: "; }
