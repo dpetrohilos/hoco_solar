@@ -161,7 +161,7 @@ p {
   border-radius: 1rem; }
 /* line 165, css/sass/modules/variables.scss */
 .grid-wrapper-2 .bg-cover-1 {
-  background: url(img/img-2.jpg), url(img/hoco@2x.png;);
+  background: url(img/img-1.jpg), url(img/hoco@2x.png;);
   background-size: 100% 100%, 400px 320px;
   background-repeat: no-repeat;
   background-position: center center, bottom left; }
