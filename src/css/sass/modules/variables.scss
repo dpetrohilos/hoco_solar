@@ -89,8 +89,12 @@ $nav: 1.2rem;
 $wrapper-width: 151.2rem;
 
 .content {
-    padding: 3.4rem 6rem;  
+    // padding: 3.4rem 6rem;  
+padding: clamp(3.4rem, 2vw, 1.2rem),clamp(6rem, 2vh, 3rem);
+
 }
+
+
 
 .td {
     top: 1.2rem; 
