@@ -166,10 +166,10 @@ $margin-vertical-large: 1.6rem;
     
     .bg-cover-1 {
         
-        background: url(img/img-1.jpg), url(img/hoco@2x.png) ;
-        background-size: auto 100%, contain;
+        background: url(img/hoco@2x.png), url(img/img-1.jpg);
+        background-size: auto 100%, auto 100%;
         background-repeat: no-repeat, no-repeat;
-        background-position: center center, bottom left; 
+        background-position: bottom left, center center; 
         
         }
     
