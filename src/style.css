@@ -116,7 +116,7 @@ p {
  */
 /* line 91, css/sass/modules/variables.scss */
 .content {
-  padding: clamp(3.4rem, 2vw, 1.2rem), clamp(6rem, 2vh, 3rem); }
+  padding: 3vw 4vh; }
 
 /* line 97, css/sass/modules/variables.scss */
 .td {
