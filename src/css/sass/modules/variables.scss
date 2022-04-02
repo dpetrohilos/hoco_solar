@@ -190,27 +190,12 @@ $margin-vertical-large: 1.6rem;
     grid-row: 1 / span 14;    
     }
     
-    div.grid-item-3 {
-    grid-column: 2 / span 10;
-    grid-row: 2 / span 4;    
-    }
-    
-    div.grid-item-4 {
-    grid-column: 2 / span 4;
-    grid-row: 2 / span 1;    
-    }
-    
-    div.grid-item-5 {
-    grid-column: 2 / span 8;
-    grid-row: 13 / span 2;
-    }
-    
-    div.grid-item-6 {
-    grid-column: 16 / span 2;
-    grid-row: 13 / span 1;
-    }
 
-    
+
+    .subgrid-item-2 {
+        z-index: 999;
+        
+    }
     
 }
 
