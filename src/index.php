@@ -3,20 +3,22 @@
 <main role="main" aria-label="Content" class="grid grid-wrapper-2">
 <div class="grid-item-1 grid-item bg-cover-1 content">
 <p class="w">Est. 2022</p>
-<h2 class="intro w">Howard County's Most Affordable Solar Farm</h2>    
+<h1 class="intro w">Howard County's Most Affordable Solar Farm</h1>    
 </div>
 <div class="light content subgrid grid-item-2 grid-item">
             
             <div class="subgrid-item-1">
 
-            <h1 class="big">10% OFF <small>All future electric bills</small></h1>
-            <p>Save 10%, even if you rent. Limited availability. Sign up today.</p>
+                <h2><img height="360" width="360" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/offer.svg" alt="10 Percent off, ALL FUTURE ELECTRIC BILLS" class="no">
+</h2>
+
+            <p>Even if you rent. Limited availability. Sign up today</p>
             <div class="form-paper" prefill="bg_id=MaxedOutSolar" data-paperform-id="hocosolarfarm"></div><script>(function() {var script = document.createElement('script'); script.src = "https://paperform.co/__embed.min.js"; document.body.appendChild(script); })()</script>
     
                 
             </div>
     <div class="subgrid-item-2">
-    <img height="72" width="48" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/HC-Logo.svg" alt="Hoco " class="no">
+    <img height="72" width="48" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/HC-Logo.svg" alt="Hoco" class="no">
     </div>
 		</div>
 
