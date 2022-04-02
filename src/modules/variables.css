@@ -43,83 +43,87 @@ p {
   .big small, .big .small {
     font-size: 2rem; }
 
-/* line 35, ../css/sass/modules/variables.scss */
+/* line 34, ../css/sass/modules/variables.scss */
+.text-center {
+  text-align: center; }
+
+/* line 37, ../css/sass/modules/variables.scss */
 .v-center {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
 
-/* line 36, ../css/sass/modules/variables.scss */
+/* line 38, ../css/sass/modules/variables.scss */
 .h-center {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
 
-/* line 37, ../css/sass/modules/variables.scss */
+/* line 39, ../css/sass/modules/variables.scss */
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
 
-/* line 38, ../css/sass/modules/variables.scss */
+/* line 40, ../css/sass/modules/variables.scss */
 .block {
   display: block; }
 
-/* line 40, ../css/sass/modules/variables.scss */
+/* line 42, ../css/sass/modules/variables.scss */
 .text-center {
   text-align: center; }
 
 /**
  * Colors
  */
-/* line 65, ../css/sass/modules/variables.scss */
+/* line 67, ../css/sass/modules/variables.scss */
 .light {
   background: #FFE4B1; }
 
-/* line 67, ../css/sass/modules/variables.scss */
+/* line 69, ../css/sass/modules/variables.scss */
 .red {
   background: #EF3A01;
   color: #fff; }
 
-/* line 70, ../css/sass/modules/variables.scss */
+/* line 72, ../css/sass/modules/variables.scss */
 .orange {
   background: #FB9D29;
   color: #fff; }
 
-/* line 73, ../css/sass/modules/variables.scss */
+/* line 75, ../css/sass/modules/variables.scss */
 .sidebar {
   border: #FB9D29 solid 2px;
   color: #FB9D29; }
 
-/* line 76, ../css/sass/modules/variables.scss */
+/* line 78, ../css/sass/modules/variables.scss */
 .w {
   color: #fff; }
 
-/* line 80, ../css/sass/modules/variables.scss */
+/* line 82, ../css/sass/modules/variables.scss */
 .o {
   color: #FB9D29; }
 
 /**
  * Grid
  */
-/* line 89, ../css/sass/modules/variables.scss */
+/* line 91, ../css/sass/modules/variables.scss */
 .content {
   padding: 3vh 3.5vw; }
 
-/* line 95, ../css/sass/modules/variables.scss */
+/* line 97, ../css/sass/modules/variables.scss */
 .content-tb {
   padding: 3vh 0; }
 
-/* line 99, ../css/sass/modules/variables.scss */
+/* line 101, ../css/sass/modules/variables.scss */
 .content-lr {
   padding: 0 3.5vw; }
 
-/* line 104, ../css/sass/modules/variables.scss */
+/* line 106, ../css/sass/modules/variables.scss */
 .td {
   top: 1.2rem;
   position: absolute; }
 
-/* line 116, ../css/sass/modules/variables.scss */
+/* line 118, ../css/sass/modules/variables.scss */
 .grid {
   display: grid;
   grid-template-rows: 3.2rem;
@@ -132,100 +136,100 @@ p {
   grid-row-gap: 1.6rem;
   margin-top: 1.6rem; }
 
-/* line 135, ../css/sass/modules/variables.scss */
+/* line 137, ../css/sass/modules/variables.scss */
 .grid-wrapper-1 {
   /* Start First Row*/ }
-  /* line 141, ../css/sass/modules/variables.scss */
+  /* line 143, ../css/sass/modules/variables.scss */
   .grid-wrapper-1 div:nth-child(1) {
     grid-column: 1 / span 12;
     grid-row: 1 / span 4; }
-  /* line 147, ../css/sass/modules/variables.scss */
+  /* line 149, ../css/sass/modules/variables.scss */
   .grid-wrapper-1 div:nth-child(2) {
     grid-column: 23 / span 1;
     grid-row: 1 / span 2; }
-  /* line 151, ../css/sass/modules/variables.scss */
+  /* line 153, ../css/sass/modules/variables.scss */
   .grid-wrapper-1 div:nth-child(3) {
     grid-column: 24 / span 1;
     grid-row: 1 / span 2; }
 
-/* line 164, ../css/sass/modules/variables.scss */
+/* line 166, ../css/sass/modules/variables.scss */
 .grid-wrapper-2 img, .grid-wrapper-2 div {
   border-radius: 1rem; }
-/* line 168, ../css/sass/modules/variables.scss */
+/* line 170, ../css/sass/modules/variables.scss */
 .grid-wrapper-2 .bg-cover-1 {
   background: url(img/hoco@2x.png), url(img/img-1.jpg);
   background-size: auto 9.2rem, auto 100%;
   background-repeat: no-repeat, no-repeat;
   background-position: 3.4vw 100%, center center; }
-/* line 178, ../css/sass/modules/variables.scss */
+/* line 180, ../css/sass/modules/variables.scss */
 .grid-wrapper-2 .no {
   border-radius: 0; }
-/* line 184, ../css/sass/modules/variables.scss */
+/* line 186, ../css/sass/modules/variables.scss */
 .grid-wrapper-2 div.grid-item-1 {
   grid-column: 1 / span 14;
   grid-row: 1 / span 14; }
-/* line 189, ../css/sass/modules/variables.scss */
+/* line 191, ../css/sass/modules/variables.scss */
 .grid-wrapper-2 div.grid-item-2 {
   grid-column: 15 / span 10;
   grid-row: 1 / span 14; }
-/* line 196, ../css/sass/modules/variables.scss */
+/* line 198, ../css/sass/modules/variables.scss */
 .grid-wrapper-2 .subgrid-item-2 {
   z-index: 999; }
 
-/* line 205, ../css/sass/modules/variables.scss */
+/* line 207, ../css/sass/modules/variables.scss */
 .grid-wrapper-3 img, .grid-wrapper-3 div {
   border-radius: 1rem; }
-/* line 211, ../css/sass/modules/variables.scss */
+/* line 213, ../css/sass/modules/variables.scss */
 .grid-wrapper-3 div.grid-item-1 {
   grid-column: 1 / span 8;
   grid-row: 1 / span 5; }
-/* line 217, ../css/sass/modules/variables.scss */
+/* line 219, ../css/sass/modules/variables.scss */
 .grid-wrapper-3 div.grid-item-2 {
   grid-column: 9 / span 8;
   grid-row: 1 / span 5; }
-/* line 224, ../css/sass/modules/variables.scss */
+/* line 226, ../css/sass/modules/variables.scss */
 .grid-wrapper-3 div.grid-item-3 {
   grid-column: 17 / span 8;
   grid-row: 1 / span 9; }
-/* line 231, ../css/sass/modules/variables.scss */
+/* line 233, ../css/sass/modules/variables.scss */
 .grid-wrapper-3 div.grid-item-4 {
   grid-column: 1 / span 16;
   grid-row: 6 / span 4; }
-/* line 239, ../css/sass/modules/variables.scss */
+/* line 241, ../css/sass/modules/variables.scss */
 .grid-wrapper-3 .bg-cover-2 {
   background: url(img/img-2.jpg) no-repeat;
   background-size: cover; }
 
-/* line 254, ../css/sass/modules/variables.scss */
+/* line 256, ../css/sass/modules/variables.scss */
 .grid-wrapper-4 .grid-item-1 {
   grid-column: 1 / span 5;
   grid-row: 1 / span 10; }
-/* line 260, ../css/sass/modules/variables.scss */
+/* line 262, ../css/sass/modules/variables.scss */
 .grid-wrapper-4 .grid-item-2 {
   grid-column: 5 / span 5;
   grid-row: 1 / span 10; }
-/* line 269, ../css/sass/modules/variables.scss */
+/* line 271, ../css/sass/modules/variables.scss */
 .grid-wrapper-4 div.grid-item-3 {
   grid-column: 18 / span 7;
   grid-row: 1 / span 2; }
-/* line 276, ../css/sass/modules/variables.scss */
+/* line 278, ../css/sass/modules/variables.scss */
 .grid-wrapper-4 div.grid-item-4 {
   grid-column: 23 / span 1;
   grid-row: 10 / span 1; }
-/* line 282, ../css/sass/modules/variables.scss */
+/* line 284, ../css/sass/modules/variables.scss */
 .grid-wrapper-4 div.grid-item-5 {
   grid-column: 18 / span 4;
   grid-row: 10 / span 1; }
-/* line 288, ../css/sass/modules/variables.scss */
+/* line 290, ../css/sass/modules/variables.scss */
 .grid-wrapper-4 div.grid-item-6 {
   grid-column: 1 / span 8;
   grid-row: 9 / span 3; }
 
-/* line 301, ../css/sass/modules/variables.scss */
+/* line 303, ../css/sass/modules/variables.scss */
 .subgrid {
   display: grid; }
 
-/* line 310, ../css/sass/modules/variables.scss */
+/* line 312, ../css/sass/modules/variables.scss */
 .form-paper {
   display: block;
   max-height: 62rem;
@@ -233,7 +237,7 @@ p {
   height: 100%; }
 
 @media only screen and (max-width: 72em) {
-  /* line 320, ../css/sass/modules/variables.scss */
+  /* line 322, ../css/sass/modules/variables.scss */
   .grid {
     display: grid;
     grid-template-rows: 2.4rem;
@@ -246,60 +250,60 @@ p {
     grid-row-gap: 1.6rem;
     margin-top: 1.6rem; }
 
-  /* line 338, ../css/sass/modules/variables.scss */
+  /* line 340, ../css/sass/modules/variables.scss */
   .grid-wrapper-2 .bg-cover-1 {
     background: url(img/hoco@2x.png), url(img/img-1.jpg);
     background-size: auto 9.2rem, cover;
     background-repeat: no-repeat, no-repeat;
     background-position: 3.4vw 100%, center center; }
-  /* line 347, ../css/sass/modules/variables.scss */
+  /* line 349, ../css/sass/modules/variables.scss */
   .grid-wrapper-2 div.grid-item-1 {
     grid-column: 1 / span 12;
     grid-row: 1 / span 16; }
-  /* line 351, ../css/sass/modules/variables.scss */
+  /* line 353, ../css/sass/modules/variables.scss */
   .grid-wrapper-2 div.grid-item-2 {
     grid-column: 1 / span 12;
     grid-row: 17 / span 12; }
 
-  /* line 362, ../css/sass/modules/variables.scss */
+  /* line 364, ../css/sass/modules/variables.scss */
   .grid-wrapper-3 div.grid-item-1 {
     grid-column: 1 / span 6;
     grid-row: 1 / span 6; }
-  /* line 368, ../css/sass/modules/variables.scss */
+  /* line 370, ../css/sass/modules/variables.scss */
   .grid-wrapper-3 div.grid-item-2 {
     grid-column: 7 / span 6;
     grid-row: 1 / span 6; }
-  /* line 375, ../css/sass/modules/variables.scss */
+  /* line 377, ../css/sass/modules/variables.scss */
   .grid-wrapper-3 div.grid-item-3 {
     grid-column: 1 / span 12;
     grid-row: 7 / span 12; }
-  /* line 382, ../css/sass/modules/variables.scss */
+  /* line 384, ../css/sass/modules/variables.scss */
   .grid-wrapper-3 div.grid-item-4 {
     grid-column: 1 / span 12;
     grid-row: 19 / span 6; }
 
-  /* line 394, ../css/sass/modules/variables.scss */
+  /* line 396, ../css/sass/modules/variables.scss */
   .grid-wrapper-4 nav.grid-item-1 {
     grid-column: 1 / span 12;
     grid-row: 1 / span 5; }
-  /* line 400, ../css/sass/modules/variables.scss */
+  /* line 402, ../css/sass/modules/variables.scss */
   .grid-wrapper-4 nav.grid-item-2 {
     grid-column: 1 / span 12;
     grid-row: 6 / span 5; }
-  /* line 407, ../css/sass/modules/variables.scss */
+  /* line 409, ../css/sass/modules/variables.scss */
   .grid-wrapper-4 div.grid-item-3 {
     grid-column: 6 / span 8;
     grid-row: 5 / span 2; }
-  /* line 413, ../css/sass/modules/variables.scss */
+  /* line 415, ../css/sass/modules/variables.scss */
   .grid-wrapper-4 div.grid-item-4 {
     grid-column: 1 / span 6;
     grid-row: 9 / span 4; }
-  /* line 420, ../css/sass/modules/variables.scss */
+  /* line 422, ../css/sass/modules/variables.scss */
   .grid-wrapper-4 div.grid-item-5 {
     grid-column: 7 / span 12;
     grid-row: 9 / span 2; } }
 @media only screen and (max-width: 54em) {
-  /* line 434, ../css/sass/modules/variables.scss */
+  /* line 436, ../css/sass/modules/variables.scss */
   .grid {
     display: grid;
     grid-template-rows: 1.2rem;
@@ -312,22 +316,22 @@ p {
     grid-row-gap: 1.6rem;
     margin-top: 1.6rem; }
 
-  /* line 453, ../css/sass/modules/variables.scss */
+  /* line 455, ../css/sass/modules/variables.scss */
   .grid-wrapper-2 .bg-cover-1 {
     background: url(img/hoco@2x.png), url(img/img-1.jpg);
     background-size: auto 9.2rem, cover;
     background-repeat: no-repeat, no-repeat;
     background-position: 3.4vw 100%, center center; }
-  /* line 462, ../css/sass/modules/variables.scss */
+  /* line 464, ../css/sass/modules/variables.scss */
   .grid-wrapper-2 div.grid-item-1 {
     grid-column: 1 / span 12;
     grid-row: 1 / span 16; }
-  /* line 466, ../css/sass/modules/variables.scss */
+  /* line 468, ../css/sass/modules/variables.scss */
   .grid-wrapper-2 div.grid-item-2 {
     grid-column: 1 / span 12;
     grid-row: 17 / span 12; } }
 @media only screen and (max-width: 42em) {
-  /* line 485, ../css/sass/modules/variables.scss */
+  /* line 487, ../css/sass/modules/variables.scss */
   .grid {
     display: grid;
     grid-template-rows: 1.2rem;
@@ -340,55 +344,55 @@ p {
     grid-row-gap: 1.6rem;
     margin-top: 1.6rem; }
 
-  /* line 505, ../css/sass/modules/variables.scss */
+  /* line 507, ../css/sass/modules/variables.scss */
   .grid-wrapper-2 .bg-cover-1 {
     background: url(img/hoco@2x.png), url(img/img-1.jpg);
     background-size: auto 9.2rem, cover;
     background-repeat: no-repeat, no-repeat;
     background-position: 3.4vw 100%, center center; }
-  /* line 514, ../css/sass/modules/variables.scss */
+  /* line 516, ../css/sass/modules/variables.scss */
   .grid-wrapper-2 div.grid-item-1 {
     grid-column: 1 / span 12;
     grid-row: 1 / span 16; }
-  /* line 519, ../css/sass/modules/variables.scss */
+  /* line 521, ../css/sass/modules/variables.scss */
   .grid-wrapper-2 div.grid-item-2 {
     grid-column: 1 / span 12;
     grid-row: 17 / span 12; }
 
-  /* line 530, ../css/sass/modules/variables.scss */
+  /* line 532, ../css/sass/modules/variables.scss */
   .grid-wrapper-3 div.grid-item-1 {
     grid-column: 1 / span 12;
     grid-row: 1 / span 12; }
-  /* line 539, ../css/sass/modules/variables.scss */
+  /* line 541, ../css/sass/modules/variables.scss */
   .grid-wrapper-3 div.grid-item-2 {
     grid-column: 1 / span 12;
     grid-row: 13 / span 12; }
-  /* line 547, ../css/sass/modules/variables.scss */
+  /* line 549, ../css/sass/modules/variables.scss */
   .grid-wrapper-3 div.grid-item-3 {
     grid-column: 1 / span 12;
     grid-row: 26 / span 12; }
-  /* line 555, ../css/sass/modules/variables.scss */
+  /* line 557, ../css/sass/modules/variables.scss */
   .grid-wrapper-3 div.grid-item-4 {
     grid-column: 1 / span 12;
     grid-row: 39 / span 12; }
 
-  /* line 566, ../css/sass/modules/variables.scss */
+  /* line 568, ../css/sass/modules/variables.scss */
   .grid-wrapper-4 nav.footer-nav-1 {
     grid-column: 1 / span 12;
     grid-row: 1 / span 12; }
-  /* line 572, ../css/sass/modules/variables.scss */
+  /* line 574, ../css/sass/modules/variables.scss */
   .grid-wrapper-4 nav.footer-nav-2 {
     grid-column: 1 / span 12;
     grid-row: 13 / span 12; }
-  /* line 581, ../css/sass/modules/variables.scss */
+  /* line 583, ../css/sass/modules/variables.scss */
   .grid-wrapper-4 div.grid-item-3 {
     grid-column: 1 / span 12;
     grid-row: 25 / span 12; }
-  /* line 587, ../css/sass/modules/variables.scss */
+  /* line 589, ../css/sass/modules/variables.scss */
   .grid-wrapper-4 div.grid-item-4 {
     grid-column: 1 / span 12;
     grid-row: 39 / span 12; }
-  /* line 592, ../css/sass/modules/variables.scss */
+  /* line 594, ../css/sass/modules/variables.scss */
   .grid-wrapper-4 div.grid-item-5 {
     grid-column: 1 / span 12;
     grid-row: 51 / span 12; } }
