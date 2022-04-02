@@ -171,15 +171,9 @@ $margin-vertical-large: 1.6rem;
         background-repeat: no-repeat;
         background-position: center center; 
         
-        .bottom {
-            
-        display: flex; 
-        flex:auto;
-        flex-direction:column;
-        
             
         }
-    }
+    
     
     .no {
         border-radius: 0; 
@@ -190,7 +184,6 @@ $margin-vertical-large: 1.6rem;
     div.grid-item-1 {
     grid-column: 1 / span 14;
     grid-row: 1 / span 14;
-    padding-top:5.6rem;
     }
     
     div.grid-item-2 {
