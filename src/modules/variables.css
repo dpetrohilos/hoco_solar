@@ -208,7 +208,7 @@ p {
 /* line 258, ../css/sass/modules/variables.scss */
 .grid-wrapper-3 .bg-cover-2 {
   background: url(img/img-2.jpg) no-repeat;
-  background-size: contain; }
+  background-size: cover; }
 
 /* line 282, ../css/sass/modules/variables.scss */
 .form-paper {
