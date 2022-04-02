@@ -162,6 +162,13 @@ $margin-vertical-large: 1.6rem;
         border-radius: 1rem; 
     }
     
+    .bg-cover {
+        
+        background-image: url(/src/img/img-1.jpg);
+        background-size: contain;
+        
+    }
+    
     .no {
         border-radius: 0; 
     }
@@ -170,7 +177,8 @@ $margin-vertical-large: 1.6rem;
 
     div.grid-item-1 {
     grid-column: 1 / span 14;
-    grid-row: 1 / span 14;  
+    grid-row: 1 / span 14;
+    padding-top:5.6rem;
     }
     
     div.grid-item-2 {
@@ -245,6 +253,13 @@ $margin-vertical-large: 1.6rem;
         
     }
     
+        .bg-cover-2 {
+        
+        background-image: url(/src/img/img-2.jpg);
+        background-size: contain;
+        
+    }
+
 
     
 }

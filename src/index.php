@@ -1,8 +1,11 @@
 <?php get_header(); ?>
 
 <main role="main" aria-label="Content" class="grid grid-wrapper-2">
-<div class="grid-item-1 grid-item">
-<img height="1200" width="1200" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/img-1.jpg" alt="Beautiful Photo Of A Solar Farm">
+<div class="grid-item-1 grid-item bg-1">
+<p class="w">Est. 2022</p>
+<h2 class="intro w">Howard County's Most Affordable Solar Farm</h2>     <img height="720" width="480" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hoco@2x.png" alt="Hoco " class="no">
+    
+    
 </div>
 <div class="light content subgrid grid-item-2 grid-item">
             
@@ -18,15 +21,6 @@
     <img height="72" width="48" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/HC-Logo.svg" alt="Hoco " class="no">
     </div>
 		</div>
-<div class="grid-item-3 grid-item">      <h2 class="intro w">Howard County's Most Affordable Solar Farm</h2> 
-</div>
-<div class="grid-item-4 grid-item">            
-    <p class="w">Est. 2022</p>
-        </div>
-<div class="grid-item-5 grid-item">
-            
-        <img height="720" width="480" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hoco@2x.png" alt="Hoco " class="no">
-</div>
 
 </main>
 
@@ -59,14 +53,9 @@ money.</p>
     
     </div>
     
-<div class="grid-item-4 grid-item">
-
-<img height="1200" width="1200" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/img-2.jpg" alt="Beautiful Photo Of A Solar Farm" class="wtf">
-       
-    </div>
-    <div class="grid-item-5 grid-item">
+<div class="grid-item-4 grid-item bg-cover-2">
     
-           <h5 class="headline w">Solar Energy Independence</h4> 
+           <h5 class="headline w">Solar Energy Independence</h5> 
 
     </div>
 
