@@ -162,7 +162,7 @@ p {
 /* line 167, css/sass/modules/variables.scss */
 .grid-wrapper-2 .bg-cover-1 {
   background: url(img/hoco@2x.png), url(img/img-1.jpg);
-  background-size: auto 100%, auto 100%;
+  background-size: auto 72rem, auto 100%;
   background-repeat: no-repeat, no-repeat;
   background-position: bottom left, center center; }
 /* line 177, css/sass/modules/variables.scss */
