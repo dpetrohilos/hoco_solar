@@ -35,21 +35,21 @@ p {
 
 /* line 25, css/sass/modules/variables.scss */
 .headline {
-  font-size: 7.2rem;
+  font-size: clamp(3.2rem, 4vw, 7.2rem);
   text-transform: uppercase; }
 
 /* line 26, css/sass/modules/variables.scss */
 .subhead {
-  font-size: 2.2rem; }
+  font-size: clamp(1.6rem, 2vw, 2.2rem); }
 
 /* line 27, css/sass/modules/variables.scss */
 .intro {
-  font-size: 4.4rem;
+  font-size: clamp(2.6rem, 3vw, 4.4rem);
   text-transform: uppercase; }
 
 /* line 28, css/sass/modules/variables.scss */
 .big {
-  font-size: 6rem;
+  font-size: clamp(2.8rem, 3.4vw, 6rem);
   text-transform: uppercase; }
   /* line 30, css/sass/modules/variables.scss */
   .big small, .big .small {
