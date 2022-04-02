@@ -224,10 +224,12 @@ p {
 /* line 284, css/sass/modules/variables.scss */
 .form-paper {
   display: block;
-  height: 62rem; }
+  max-height: 62rem;
+  min-height: 4.8rem;
+  height: 100%; }
 
 @media only screen and (max-width: 136em) {
-  /* line 295, css/sass/modules/variables.scss */
+  /* line 297, css/sass/modules/variables.scss */
   .grid {
     display: grid;
     grid-template-rows: 3.2rem;
@@ -240,7 +242,7 @@ p {
     grid-row-gap: 1.6rem;
     margin-top: 1.6rem; } }
 @media only screen and (max-width: 92em) {
-  /* line 314, css/sass/modules/variables.scss */
+  /* line 316, css/sass/modules/variables.scss */
   .grid {
     display: grid;
     grid-template-rows: 3.2rem;
@@ -253,7 +255,7 @@ p {
     grid-row-gap: 1.6rem;
     margin-top: 1.6rem; } }
 @media only screen and (max-width: 72em) {
-  /* line 334, css/sass/modules/variables.scss */
+  /* line 336, css/sass/modules/variables.scss */
   .grid {
     display: grid;
     grid-template-rows: 3.2rem;
@@ -266,7 +268,7 @@ p {
     grid-row-gap: 1.6rem;
     margin-top: 1.6rem; } }
 @media only screen and (max-width: 54em) {
-  /* line 353, css/sass/modules/variables.scss */
+  /* line 355, css/sass/modules/variables.scss */
   .grid {
     display: grid;
     grid-template-rows: 3.2rem;
@@ -279,7 +281,7 @@ p {
     grid-row-gap: 1.6rem;
     margin-top: 1.6rem; } }
 @media only screen and (max-width: 41.4em) {
-  /* line 371, css/sass/modules/variables.scss */
+  /* line 373, css/sass/modules/variables.scss */
   .grid {
     display: grid;
     grid-template-rows: 3.2rem;
