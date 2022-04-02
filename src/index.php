@@ -27,11 +27,11 @@
 
 <div class="grid grid-wrapper-3">
     
-    <div class="red subgrid grid-item-1 content grid-item">
+    <div class="red subgrid grid-item-1 content grid-item flex v-center">
         <h3 class="headline w subgrid-item-2">Locally Sourced</h3>
         
     </div>
-    <div class="orange subgrid grid-item-2 content grid-item">
+    <div class="orange subgrid grid-item-2 content grid-item flex v-center">
             <h4 class="headline w subgrid-item-3">Our Future</h4>
 
     
@@ -53,7 +53,7 @@ money.</p>
     
     </div>
     
-<div class="grid-item-4 grid-item bg-cover-2 content">
+<div class="grid-item-4 grid-item bg-cover-2 content flex v-center">
     
            <h5 class="headline w">Solar Energy Independence</h5> 
 
