@@ -323,7 +323,24 @@ p {
   /* line 449, css/sass/modules/variables.scss */
   .grid-wrapper-2 div.grid-item-2 {
     grid-column: 1 / span 12;
-    grid-row: 17 / span 12; } }
+    grid-row: 17 / span 12; }
+
+  /* line 462, css/sass/modules/variables.scss */
+  .grid-wrapper-2 div.grid-item-1 {
+    grid-column: 1 / span 12;
+    grid-row: 1 / span 12; }
+  /* line 471, css/sass/modules/variables.scss */
+  .grid-wrapper-2 div.grid-item-2 {
+    grid-column: 1 / span 12;
+    grid-row: 13 / span 12; }
+  /* line 479, css/sass/modules/variables.scss */
+  .grid-wrapper-2 div.grid-item-3 {
+    grid-column: 1 / span 12;
+    grid-row: 26 / span 12; }
+  /* line 487, css/sass/modules/variables.scss */
+  .grid-wrapper-2 div.grid-item-4 {
+    grid-column: 1 / span 12;
+    grid-row: 39 / span 12; } }
 /**
  * modules/mixins
  * ---
