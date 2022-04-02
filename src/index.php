@@ -9,7 +9,7 @@
             
             <div class="subgrid-item-1">
 
-                <h2><img height="360" width="360" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/offer.svg" alt="10 Percent off, ALL FUTURE ELECTRIC BILLS" class="no">
+                <h2><img height="206" width="447" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/offer.svg" alt="10 Percent off, ALL FUTURE ELECTRIC BILLS" class="no">
 </h2>
 
             <p>Even if you rent. Limited availability. Sign up today</p>
