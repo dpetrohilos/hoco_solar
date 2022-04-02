@@ -801,11 +801,13 @@ input[type="search"] {
       color: #F7790E; }
   /* line 25, css/sass/partials/footer.scss */
   .footer ul {
-    padding: 6rem 0 0 6rem; }
-    /* line 29, css/sass/partials/footer.scss */
+    padding: 0rem;
+    width: 100%; }
+    /* line 30, css/sass/partials/footer.scss */
     .footer ul li {
       list-style: none;
-      padding: 1.2rem 0; }
+      padding: 1.2rem 0;
+      width: 100%; }
 
 /**
  * partials/print
