@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <main role="main" aria-label="Content" class="grid grid-wrapper-2">
-<div class="grid-item-1 grid-item bg-1">
+<div class="grid-item-1 grid-item bg-cover-1">
 <p class="w">Est. 2022</p>
 <h2 class="intro w">Howard County's Most Affordable Solar Farm</h2>     
     
