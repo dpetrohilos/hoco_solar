@@ -161,7 +161,7 @@ p {
   border-radius: 1rem; }
 /* line 165, css/sass/modules/variables.scss */
 .grid-wrapper-2 .bg-cover {
-  background-image: url(/src/img/img-1.jpg);
+  background-image: url(/img/img-1.jpg);
   background-size: contain; }
 /* line 172, css/sass/modules/variables.scss */
 .grid-wrapper-2 .no {
@@ -217,7 +217,7 @@ p {
   grid-row: 7 / span 2; }
 /* line 256, css/sass/modules/variables.scss */
 .grid-wrapper-3 .bg-cover-2 {
-  background-image: url(/src/img/img-2.jpg);
+  background-image: url(/img/img-2.jpg);
   background-size: contain; }
 
 /* line 279, css/sass/modules/variables.scss */
