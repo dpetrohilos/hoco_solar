@@ -1,45 +1,54 @@
 <?php get_header(); ?>
 
-	<main role="main" aria-label="Content">
-		<!-- section -->
-		<section>
+	<main role="main" aria-label="Content" class="grid grid-wrapper-2">
+	<!-- section -->
 
-			<h1><?php the_title(); ?></h1>
+	<?php if ( have_posts() ) : while (have_posts() ) : the_post(); ?>
 
-		<?php if ( have_posts()) : while ( have_posts() ) : the_post(); ?>
+		<!-- article -->
+		<header id="post-<?php the_ID(); ?>" <?php post_class('grid-item-1-internal grid-item hero'); ?>>
 
-			<!-- article -->
-			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+			<!-- post thumbnail -->
+			<?php if ( has_post_thumbnail() ) : // Check if Thumbnail exists. ?>
+					<?php the_post_thumbnail(); // Fullsize image for the single post. ?>
+			<?php endif; ?>
+			<!-- /post thumbnail -->
 
-				<?php the_content(); ?>
+			<!-- post title -->
+			<h1><?php the_title(); ?>
+			</h1>
+			<!-- /post title -->
 
-				<?php comments_template( '', true ); // Remove if you don't want comments. ?>
+			
+        </header><article class="grid-item-3-internal article">
+			<?php the_content(); // Dynamic Content. ?>
 
-				<br class="clear">
 
-				<?php edit_post_link(); ?>
 
-			</article>
-			<!-- /article -->
 
-		<?php endwhile; ?>
+			<?php edit_post_link(); // Always handy to have Edit Post Links available. ?>
 
-		<?php else : ?>
 
-			<!-- article -->
-			<article>
+		</article>
+		<!-- /article -->
 
-				<h2><?php esc_html_e( 'Sorry, nothing to display.', 'html5blank' ); ?></h2>
+	<?php endwhile; ?>
 
-			</article>
-			<!-- /article -->
+	<?php else : ?>
 
-		<?php endif; ?>
+		<!-- article -->
+		<article class="grid-item-1-internal">
 
-		</section>
-		<!-- /section -->
-	</main>
+			<h1><?php esc_html_e( 'Sorry, nothing to display.', 'html5blank' ); ?></h1>
+
+		</article>
+		<!-- /article -->
+
+	<?php endif; ?>
+
+	<!-- /section -->
 
 <?php get_sidebar(); ?>
+	</main>
 
 <?php get_footer(); ?>

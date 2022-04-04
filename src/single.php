@@ -1,13 +1,12 @@
 <?php get_header(); ?>
 
-	<main role="main" aria-label="Content">
+	<main role="main" aria-label="Content" class="grid grid-wrapper-2">
 	<!-- section -->
-	<section>
 
 	<?php if ( have_posts() ) : while (have_posts() ) : the_post(); ?>
 
 		<!-- article -->
-		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+		<header id="post-<?php the_ID(); ?>" <?php post_class('grid-item-1-internal grid-item hero'); ?>>
 
 			<!-- post thumbnail -->
 			<?php if ( has_post_thumbnail() ) : // Check if Thumbnail exists. ?>
@@ -18,8 +17,7 @@
 			<!-- /post thumbnail -->
 
 			<!-- post title -->
-			<h1>
-				<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+			<h1><?php the_title(); ?>
 			</h1>
 			<!-- /post title -->
 
@@ -32,7 +30,7 @@
 			<span class="author"><?php esc_html_e( 'Published by', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
 			<span class="comments"><?php if ( comments_open( get_the_ID() ) ) comments_popup_link( __( 'Leave your thoughts', 'html5blank' ), __( '1 Comment', 'html5blank' ), __( '% Comments', 'html5blank' ) ); ?></span>
 			<!-- /post details -->
-
+        </header><article class="grid-item-3-internal article">
 			<?php the_content(); // Dynamic Content. ?>
 
 			<?php the_tags( __( 'Tags: ', 'html5blank' ), ', ', '<br>' ); // Separated by commas with a line break at the end. ?>
@@ -53,7 +51,7 @@
 	<?php else : ?>
 
 		<!-- article -->
-		<article>
+		<article class="grid-item-1-internal">
 
 			<h1><?php esc_html_e( 'Sorry, nothing to display.', 'html5blank' ); ?></h1>
 
@@ -62,10 +60,9 @@
 
 	<?php endif; ?>
 
-	</section>
 	<!-- /section -->
-	</main>
 
 <?php get_sidebar(); ?>
+	</main>
 
 <?php get_footer(); ?>

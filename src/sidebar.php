@@ -1,5 +1,5 @@
 <!-- sidebar -->
-<aside class="sidebar" role="complementary">
+<aside class="sidebar grid-item-3-internal text-center flex v-center h-center content" role="complementary">
 
 	<?php get_template_part( 'searchform' ); ?>
 
