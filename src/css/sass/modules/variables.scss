@@ -332,7 +332,10 @@ $margin-vertical-large: 1.6rem;
     grid-template-areas: 
     "grid-item"; 
 
-    .grid-item{  grid-area: grid-item; }
+    .grid-item {grid-area: grid-item; 
+    
+        img {border-radius: 1rem;}
+    }
     
 }
 
