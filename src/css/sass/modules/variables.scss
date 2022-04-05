@@ -362,6 +362,11 @@ $margin-vertical-large: 1.6rem;
     .grid-item-2-internal {
     grid-column: 16 / span 8;
     grid-row: 1 / span 1;
+        
+        
+        .sidebar {
+            margin-top: 1.6rem;
+        }
 
     }
 
