@@ -319,18 +319,20 @@ $margin-vertical-large: 1.6rem;
 // internal pages 
 
 .grid-wrapper-internal-top {
-        display: grid;
-        grid-template-rows: 1fr;
-        grid-template-columns: 1fr;
+    display: grid; 
+    grid-auto-flow: row dense; 
+    grid-template-columns: 24fr; 
+    grid-template-rows: 1fr; 
     width: 100%;
     margin: 0 auto;
     padding: 0;
     grid-column-gap: 1.6rem;
     grid-row-gap: 1.6rem;
     margin-top: 1.6rem;
-    grid-auto-flow: column dense;
+    grid-template-areas: 
+    "grid-item"; 
 
-    .grid-item{}
+    .grid-item{  grid-area: grid-item; }
     
 }
 
@@ -338,7 +340,7 @@ $margin-vertical-large: 1.6rem;
     
     display: grid;
     grid-template-columns: 16fr 8fr; 
-    grid-template-rows: 1fr; 
+    grid-template-rows: 2fr; 
     width: 100%;
     margin: 0 auto;
     padding: 0;
@@ -351,12 +353,16 @@ $margin-vertical-large: 1.6rem;
     .grid-item {
         border-radius: 1rem; 
     }
-    .grid-item-1-internal {grid-area: 1 / 1 / 2 / 3; }
-    .grid-item-2-internal {grid-area: 1 / 1 / 2 / 3; }
-    .grid-item-3-internal {grid-area: 1 / 1 / 2 / 3;}
-    .grid-item-4-internal {grid-area: 1 / 1 / 2 / 3;}
-    .grid-item-5-internal {grid-area: 1 / 1 / 2 / 3; }
-    
+    .grid-item-1-internal {
+        
+    grid-area: 1 / 1 / 2 / 3; 
+
+    }
+    .grid-item-2-internal {
+    grid-area: 1 / 2 / 2 / 3; 
+
+    }
+
 }
 
 @media only screen and (max-width: 72em) {

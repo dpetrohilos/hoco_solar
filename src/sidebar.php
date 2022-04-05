@@ -1,7 +1,7 @@
 <!-- sidebar -->
 
-
-<div class="light content subgrid grid-item-2-internal grid-item">
+<aside class="sidebar grid-item-2-internal" role="complementary">
+<div class="light content subgrid">
             
             <div class="subgrid-item-1">
 
@@ -18,7 +18,7 @@
     </div>
 		</div>
 
-<aside class="sidebar grid-item-3-internal text-center flex v-center h-center content" role="complementary">
+<div class="text-center flex v-center h-center content">
 
 	<?php get_template_part( 'searchform' ); ?>
 
@@ -29,6 +29,6 @@
 	<div class="sidebar-widget">
 		<?php if ( ! function_exists( 'dynamic_sidebar' ) || ! dynamic_sidebar( 'widget-area-2' ) ) ?>
 	</div>
-
+</div>
 </aside>
 <!-- /sidebar -->
