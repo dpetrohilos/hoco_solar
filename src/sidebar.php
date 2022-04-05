@@ -18,17 +18,23 @@
     </div>
 		</div>
 
-<div class="text-center flex v-center h-center content">
+<div class="text-center flex v-center h-center content grid-item">
 
-	<?php get_template_part( 'searchform' ); ?>
+     <div class="block">
+        
+    <img height="120" width="120" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/icon1.svg" alt="No Construction">
 
-	<div class="sidebar-widget">
-		<?php if ( ! function_exists( 'dynamic_sidebar' ) || ! dynamic_sidebar( 'widget-area-1' ) ) ?>
-	</div>
+        <p class="subhead o changa">No construction, no cost, no hassle.</p>
+        <img height="120" width="120" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/icon3.svg" alt="Simple Signup">
 
-	<div class="sidebar-widget">
-		<?php if ( ! function_exists( 'dynamic_sidebar' ) || ! dynamic_sidebar( 'widget-area-2' ) ) ?>
-	</div>
-</div>
+        <p class="subhead o changa">Simply sign up and save 
+money.</p>
+
+            <img height="120" width="120" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/icon2.svg" alt="Fight Climate Change">
+
+        <p class="subhead o changa">Fight climate change with community solar.</p>
+        </div>
+    
+    </div>
 </aside>
 <!-- /sidebar -->
