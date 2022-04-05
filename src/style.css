@@ -270,11 +270,11 @@ p {
 /* line 339, css/sass/modules/variables.scss */
 .grid-wrapper-internal {
   display: grid;
-  grid-template-columns: 16fr 8fr;
+  grid-template-columns: 14fr 10fr;
   grid-template-rows: 2fr;
   width: 100%;
   margin: 0 auto;
-  padding: 0;
+  padding: 1.6rem;
   grid-column-gap: 1.6rem;
   grid-row-gap: 1.6rem;
   margin-top: 1.6rem;
