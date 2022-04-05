@@ -19,6 +19,8 @@ margin-block-end: 1rem;
 p {
     margin-block-start: 0;
     margin-block-end: 1rem;
+    font-size: clamp(1.6rem, 4vw, 1.8rem);
+    line-height: 1.6; 
 }
 .headline {font-size: clamp(3.2rem, 4vw, 7.2rem); text-transform: uppercase; }
 .subhead {font-size: clamp(1.6rem, 2vw, 2.2rem); }
