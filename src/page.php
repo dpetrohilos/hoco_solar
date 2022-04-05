@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-	<main role="main" aria-label="Content" class="grid grid-wrapper-internal">
+	<main role="main" aria-label="Content" class="grid-wrapper-internal">
 	<!-- section -->
 
 	<?php if ( have_posts() ) : while (have_posts() ) : the_post(); ?>

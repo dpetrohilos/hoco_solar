@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-	<main role="main" aria-label="Content" class="grid grid-wrapper-internal">
+	<main role="main" aria-label="Content" class="grid-wrapper-internal">
 	<!-- section -->
 
 	<?php if ( have_posts() ) : while (have_posts() ) : the_post(); ?>
@@ -30,7 +30,9 @@
 			<span class="author"><?php esc_html_e( 'Published by', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
 			<span class="comments"><?php if ( comments_open( get_the_ID() ) ) comments_popup_link( __( 'Leave your thoughts', 'html5blank' ), __( '1 Comment', 'html5blank' ), __( '% Comments', 'html5blank' ) ); ?></span>
 			<!-- /post details -->
-        </header><article class="grid-item-3-internal article">
+        </header>
+        
+        <article class="grid-item-4-internal article">
 			<?php the_content(); // Dynamic Content. ?>
 
 			<?php the_tags( __( 'Tags: ', 'html5blank' ), ', ', '<br>' ); // Separated by commas with a line break at the end. ?>
@@ -51,7 +53,7 @@
 	<?php else : ?>
 
 		<!-- article -->
-		<article class="grid-item-1-internal">
+		<article class="grid-item-4-internal">
 
 			<h1><?php esc_html_e( 'Sorry, nothing to display.', 'html5blank' ); ?></h1>
 
