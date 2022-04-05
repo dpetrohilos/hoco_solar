@@ -329,14 +329,15 @@ $margin-vertical-large: 1.6rem;
     grid-column-gap: 1.6rem;
     grid-row-gap: 1.6rem;
     margin-top: 1.6rem;
+    grid-auto-flow: column dense;
 
     
     .grid-item {}
-    .grid-item-1-internal {}
-    .grid-item-2-internal {}
-    .grid-item-3-internal {}
-    .grid-item-4-internal {}
-    .grid-item-5-internal {}
+    .grid-item-1-internal {grid-area: 1 / 1 / 2 / 3; }
+    .grid-item-2-internal {grid-area: 1 / 1 / 2 / 3; }
+    .grid-item-3-internal {grid-area: 1 / 1 / 2 / 3;}
+    .grid-item-4-internal {grid-area: 1 / 1 / 2 / 3;}
+    .grid-item-5-internal {grid-area: 1 / 1 / 2 / 3; }
     
 }
 
