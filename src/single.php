@@ -1,18 +1,14 @@
 <?php get_header(); ?>
 
-	<main role="main" aria-label="Content" class="grid-wrapper-internal">
-	<!-- section -->
-
+<div class="grid-wrapper-internal-top" area-label="content" role="heading">
 	<?php if ( have_posts() ) : while (have_posts() ) : the_post(); ?>
 
 		<!-- article -->
-		<header id="post-<?php the_ID(); ?>" <?php post_class('grid-item-1-internal grid-item hero'); ?>>
+		<header id="post-<?php the_ID(); ?>" <?php post_class('grid-item hero'); ?>>
 
 			<!-- post thumbnail -->
 			<?php if ( has_post_thumbnail() ) : // Check if Thumbnail exists. ?>
-				<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
 					<?php the_post_thumbnail(); // Fullsize image for the single post. ?>
-				</a>
 			<?php endif; ?>
 			<!-- /post thumbnail -->
 
@@ -32,7 +28,10 @@
 			<!-- /post details -->
         </header>
         
-        <article class="grid-item-4-internal article">
+</div>    
+        
+<main role="main" area-label="content" class="grid-wrapper-internal">        
+        <article class="grid-item-1-internal article">
 			<?php the_content(); // Dynamic Content. ?>
 
 			<?php the_tags( __( 'Tags: ', 'html5blank' ), ', ', '<br>' ); // Separated by commas with a line break at the end. ?>
@@ -53,7 +52,7 @@
 	<?php else : ?>
 
 		<!-- article -->
-		<article class="grid-item-4-internal">
+		<article class="grid-item-1-internal">
 
 			<h1><?php esc_html_e( 'Sorry, nothing to display.', 'html5blank' ); ?></h1>
 

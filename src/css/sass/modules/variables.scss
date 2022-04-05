@@ -318,6 +318,22 @@ $margin-vertical-large: 1.6rem;
     
 // internal pages 
 
+.grid-wrapper-internal-top {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    grid-column-gap: 1.6rem;
+    grid-row-gap: 1.6rem;
+    margin-top: 1.6rem;
+    grid-auto-flow: column dense;
+
+    .grid-item{}
+    
+}
+
 .grid-wrapper-internal {
     
     display: grid;
