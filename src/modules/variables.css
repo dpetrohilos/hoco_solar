@@ -265,7 +265,7 @@ p {
   grid-template-rows: 2fr;
   width: 100%;
   margin: 0 auto;
-  padding: 1.6rem;
+  padding: 0;
   grid-column-gap: 1.6rem;
   grid-row-gap: 1.6rem;
   margin-top: 1.6rem;
@@ -363,7 +363,7 @@ p {
     grid-template-rows: 2fr;
     width: 100%;
     margin: 0 auto;
-    padding: 1.6rem;
+    padding: 0;
     grid-column-gap: 1.6rem;
     grid-row-gap: 1.6rem;
     margin-top: 1.6rem;
@@ -462,7 +462,7 @@ p {
     grid-template-rows: 2fr;
     width: 100%;
     margin: 0 auto;
-    padding: 1.6rem;
+    padding: 0;
     grid-column-gap: 1.6rem;
     grid-row-gap: 1.6rem;
     margin-top: 1.6rem;
@@ -561,7 +561,7 @@ p {
     grid-template-rows: 2fr;
     width: 100%;
     margin: 0 auto;
-    padding: 1.6rem;
+    padding: 0;
     grid-column-gap: 1.6rem;
     grid-row-gap: 1.6rem;
     margin-top: 1.6rem;
