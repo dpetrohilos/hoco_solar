@@ -18,7 +18,7 @@
     </div>
 		</div>
 
-<div class="text-center flex v-center h-center content grid-item">
+<div class="text-center flex v-center h-center content grid-item sidebar">
 
      <div class="block">
         
