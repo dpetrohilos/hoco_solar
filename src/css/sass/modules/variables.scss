@@ -332,7 +332,9 @@ $margin-vertical-large: 1.6rem;
     grid-auto-flow: column dense;
 
     
-    .grid-item {}
+    .grid-item {
+        border-radius: 1rem; 
+    }
     .grid-item-1-internal {grid-area: 1 / 1 / 2 / 3; }
     .grid-item-2-internal {grid-area: 1 / 1 / 2 / 3; }
     .grid-item-3-internal {grid-area: 1 / 1 / 2 / 3;}
