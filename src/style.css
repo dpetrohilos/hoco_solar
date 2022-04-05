@@ -284,7 +284,7 @@ p {
     border-radius: 1rem; }
   /* line 356, css/sass/modules/variables.scss */
   .grid-wrapper-internal .grid-item-1-internal {
-    grid-column: 1 / span 16;
+    grid-column: 1 / span 10;
     grid-row: 1 / span 1; }
   /* line 362, css/sass/modules/variables.scss */
   .grid-wrapper-internal .grid-item-2-internal {

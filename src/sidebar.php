@@ -1,7 +1,7 @@
 <!-- sidebar -->
 
-<aside class="sidebar grid-item-2-internal" role="complementary">
-<div class="light content subgrid">
+<aside class="grid-item-2-internal grid-item" role="complementary">
+<div class="light content subgrid grid-item">
             
             <div class="subgrid-item-1">
 
