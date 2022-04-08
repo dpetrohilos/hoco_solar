@@ -27,12 +27,15 @@
 	<body <?php body_class(); ?>>
         
 
-<div id="menu" role="navigation">
+<div id="menu" role="navigation" class="grid">
   
     
   <nav class="nav" id="nav">
       <?php html5blank_nav(); ?>
   </nav> 
+    
+    
+    
 </div>
 
 <div class="menu-bg" id="menu-bg"></div>
