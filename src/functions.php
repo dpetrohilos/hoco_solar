@@ -80,17 +80,17 @@ function html5blank_nav() {
         'after'           => '',
         'link_before'     => '',
         'link_after'      => '',
-        'items_wrap'      => '<ul>%3$s</ul>',
+        'items_wrap'      => '<ul class="changa">%3$s</ul>',
         'depth'           => 0,
         'walker'          => '',
         
         
-        'theme_location'  => 'footer-1',
-        'menu'            => '',
+        'theme_location'  => 'second-menu',
+        'menu'            => 'second-menu',
         'container'       => 'div',
         'container_class' => 'menu-{menu slug}-container',
         'container_id'    => '',
-        'menu_class'      => 'bottom-menu',
+        'menu_class'      => 'second-menu',
         'menu_id'         => '',
         'echo'            => true,
         'fallback_cb'     => 'wp_page_menu',
@@ -102,12 +102,12 @@ function html5blank_nav() {
         'depth'           => 0,
         'walker'          => '',
         
-        'theme_location'  => 'footer-2',
-        'menu'            => '',
+        'theme_location'  => 'third-menu',
+        'menu'            => 'third-menu',
         'container'       => 'div',
         'container_class' => 'menu-{menu slug}-container',
         'container_id'    => '',
-        'menu_class'      => 'bottom-menu',
+        'menu_class'      => 'third-menu',
         'menu_id'         => '',
         'echo'            => true,
         'fallback_cb'     => 'wp_page_menu',
@@ -184,7 +184,10 @@ function html5blank_styles() {
 function register_html5_menu() {
     register_nav_menus( array( // Using array to specify more menus if needed
         'header-menu'  => esc_html( 'Header Menu', 'html5blank' ), // Main Navigation
-        'extra-menu'   => esc_html( 'Extra Menu', 'html5blank' ) // Extra Navigation if needed (duplicate as many as you need!)
+        'second-menu'   => esc_html( 'Second Menu', 'html5blank' ) // Extra Navigation if needed (duplicate as many as you need!)
+        
+        'third-menu'   => esc_html( 'Third Menu', 'html5blank' ) // Extra Navigation if needed (duplicate as many as you need!)
+
     ) );
 }
 
