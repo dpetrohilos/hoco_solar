@@ -27,7 +27,7 @@
 	<body <?php body_class(); ?>>
         
 
-<div id="menu" role="navigation" class="grid">
+<div id="menu" role="navigation" class="grid top-menu">
   
     
   <nav class="nav" id="nav">

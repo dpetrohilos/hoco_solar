@@ -845,58 +845,52 @@ input[type="search"] {
  * Menus
  */
 /* line 10, css/sass/partials/nav.scss */
-.menu {
+.top-menu .menu {
   max-width: 151.2rem;
   width: 100vw;
   margin: 0 auto;
   padding-top: 7.2rem;
   font-family: 'Changa One', cursive; }
   /* line 18, css/sass/partials/nav.scss */
-  .menu ul {
+  .top-menu .menu ul {
     width: 100%;
     margin: 0 auto; }
     /* line 23, css/sass/partials/nav.scss */
-    .menu ul li {
+    .top-menu .menu ul li {
       text-align: right;
       PADDING-RIGHT: 1REM;
       PADDING-TOP: 2REM; }
-
 /* line 37, css/sass/partials/nav.scss */
-.nav {
+.top-menu .nav {
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
   display: none; }
-
 /* line 42, css/sass/partials/nav.scss */
-.nav ul {
+.top-menu .nav ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-
 /* line 48, css/sass/partials/nav.scss */
-.nav li {
+.top-menu .nav li {
   list-style: none;
   padding: 0; }
-
 /* line 52, css/sass/partials/nav.scss */
-.nav li a {
+.top-menu .nav li a {
   font-size: 4.8rem;
   text-decoration: none; }
-
 /* line 56, css/sass/partials/nav.scss */
-.menu-bg, #menu {
+.top-menu .menu-bg, .top-menu #menu {
   top: 0;
   left: 0;
   z-index: 999;
   position: fixed;
   margin: 0 auto;
   width: 100vw; }
-
 /* line 66, css/sass/partials/nav.scss */
-.menu-bg {
+.top-menu .menu-bg {
   z-index: 1;
   width: 0;
   height: 0;
@@ -904,24 +898,20 @@ input[type="search"] {
   background: #FB9D29;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease; }
-
 /* line 75, css/sass/partials/nav.scss */
-.change {
+.top-menu .change {
   display: block; }
-
 /* line 79, css/sass/partials/nav.scss */
-.change .bar {
+.top-menu .change .bar {
   background-color: #FFF; }
-
 /* line 83, css/sass/partials/nav.scss */
-.change-bg {
+.top-menu .change-bg {
   width: 100vw;
   height: 200vh;
   -webkit-transform: translateY(-100vh);
           transform: translateY(-100vh); }
-
 /* line 93, css/sass/partials/nav.scss */
-.nav-icon {
+.top-menu .nav-icon {
   width: 60px;
   height: 45px;
   -webkit-transform: rotate(0deg);
@@ -932,7 +922,7 @@ input[type="search"] {
   z-index: 1000;
   margin-left: auto; }
   /* line 109, css/sass/partials/nav.scss */
-  .nav-icon span {
+  .top-menu .nav-icon span {
     display: block;
     position: absolute;
     height: .1rem;
@@ -945,42 +935,36 @@ input[type="search"] {
     transform: rotate(0deg);
     -webkit-transition: .25s ease-in-out;
     transition: .25s ease-in-out; }
-
 /* line 130, css/sass/partials/nav.scss */
-.nav-icon span:nth-child(1) {
+.top-menu .nav-icon span:nth-child(1) {
   top: 0px;
   left: 69%;
   width: 1.8rem; }
-
 /* line 136, css/sass/partials/nav.scss */
-.nav-icon span:nth-child(2) {
+.top-menu .nav-icon span:nth-child(2) {
   top: 1.2rem;
   width: 2.8rem;
   left: 52%; }
-
 /* line 142, css/sass/partials/nav.scss */
-.nav-icon span:nth-child(3) {
+.top-menu .nav-icon span:nth-child(3) {
   top: 2.4rem;
   width: 3.6rem;
   left: 39%; }
-
 /* line 150, css/sass/partials/nav.scss */
-.nav-icon.change span:nth-child(1) {
+.top-menu .nav-icon.change span:nth-child(1) {
   top: 1.2rem;
   -webkit-transform: rotate(135deg);
   transform: rotate(135deg);
   width: 3.6rem;
   left: 46%;
   color: #fff; }
-
 /* line 159, css/sass/partials/nav.scss */
-.nav-icon.change span:nth-child(2) {
+.top-menu .nav-icon.change span:nth-child(2) {
   opacity: 0;
   left: -60px;
   color: #fff; }
-
 /* line 166, css/sass/partials/nav.scss */
-.nav-icon.change span:nth-child(3) {
+.top-menu .nav-icon.change span:nth-child(3) {
   top: 1.2rem;
   -webkit-transform: rotate(-135deg);
   transform: rotate(-135deg);
