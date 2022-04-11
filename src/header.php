@@ -31,7 +31,7 @@
   
     
   <nav class="nav" id="nav">
-      <?php html5blank_nav('header-menu'); ?>
+                      <?php html5blank_nav(array( 'theme_location' => 'header-menu' )); ?>
   </nav> 
     
     

@@ -3,10 +3,14 @@
 
 				
 <nav class="footer-nav grid-item-1 changa grid-item content">
-                      <?php html5blank_nav('second-menu'); ?>
+                      <?php html5blank_nav(array( 'theme_location' => 'second-menu' )); ?>
 </nav>
 <nav class="footer-nav grid-item-2 changa grid-item content">
-                      <?php html5blank_nav('third-menu'); ?>
+                      <?php html5blank_nav(array( 'theme_location' => 'third-menu' )); ?>
+    
+
+
+    
 </nav>
                 
 <div class="grid-item-3 grid-item changa content-tb"><h6 class="intro ">Questions?</h6>
