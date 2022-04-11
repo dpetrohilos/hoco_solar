@@ -68,7 +68,7 @@ function html5blank_nav() {
     wp_nav_menu(
     array(
         'theme_location'  => 'header-menu',
-        'menu'            => '',
+        'menu'            => 'header-menu',
         'container'       => 'div',
         'container_class' => 'menu-{menu slug}-container',
         'container_id'    => '',
@@ -85,7 +85,7 @@ function html5blank_nav() {
         'walker'          => '',
         
         'theme_location'  => 'second-menu',
-        'menu'            => '',
+        'menu'            => 'second-menu',
         'container'       => 'div',
         'container_class' => 'menu-{menu slug}-container',
         'container_id'    => '',
@@ -102,7 +102,7 @@ function html5blank_nav() {
         'walker'          => '',
         
         'theme_location'  => 'third-menu',
-        'menu'            => '',
+        'menu'            => 'third-menu',
         'container'       => 'div',
         'container_class' => 'menu-{menu slug}-container',
         'container_id'    => '',
