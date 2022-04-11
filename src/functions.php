@@ -82,7 +82,7 @@ function html5blank_nav('header-menu') {
         'link_after'      => '',
         'items_wrap'      => '<ul class="changa">%3$s</ul>',
         'depth'           => 0,
-        'walker'          => '',
+        'walker'          => ''
         
         
         )
@@ -107,7 +107,7 @@ function html5blank_nav('second-menu') {
         'link_after'      => '',
         'items_wrap'      => '<ul class="changa">%3$s</ul>',
         'depth'           => 0,
-        'walker'          => '',
+        'walker'          => ''
         
         
         )
@@ -133,7 +133,7 @@ function html5blank_nav('third-menu') {
         'link_after'      => '',
         'items_wrap'      => '<ul class="changa">%3$s</ul>',
         'depth'           => 0,
-        'walker'          => '',        
+        'walker'          => ''      
         
         )
     );
