@@ -8,9 +8,26 @@
 
 
 .menu {
-    display: flex;
-    flex-direction: column; 
+
+max-width: $wrapper-width;
+width: 100vw;
+margin: 0 auto;
+padding-top: 7.2rem;
+    
+    ul {
+        width: 100%;
+        margin: 0 auto;
+
+        
+        li {
+            text-align: right;
+            PADDING-RIGHT: 1REM;
+            PADDING-TOP: 2REM;
 }
+        }
+    }
+    
+
 
 .menu-item {}
 #menu-bar {}
@@ -19,21 +36,20 @@
 .nav {
   transition: 0.3s ease;
   display: none;
-font-family: 'Changa One', cursive;}
+}
+
 .nav ul {
-display: flex;
   justify-content: center;
   align-items: center;
 
     
-}
+} 
 .nav li {
   list-style: none;
   padding:0;
 }
 .nav li a {
-  color: $white;
-  font-size: 1.8rem;
+  font-size: 4.8rem;
   text-decoration: none;
 }
 .menu-bg, #menu {
@@ -41,6 +57,8 @@ display: flex;
   left: 0;
 z-index: 999;
     position: fixed;
+    margin: 0 auto; 
+    width: 100vw; 
 
 }
 
@@ -49,7 +67,7 @@ z-index: 999;
   width: 0;
   height: 0;
   margin: 0;
-  background: $orange; 
+  background: black; 
   transition: 0.3s ease;
 }
 
@@ -83,13 +101,16 @@ z-index: 999;
   -o-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   cursor: pointer;
-z-index: 1000;     
- span {
+z-index: 1000;
+margin-left: auto;    
+ 
+    
+    span {
   display: block;
   position: absolute;
   height: .1rem;
   width: 100%;
-  background: $black;
+  background: black;
   border-radius: 9px;
   opacity: 1;
   left: 0;
@@ -124,17 +145,21 @@ width: 3.6rem;
 
 }
 
+
 .nav-icon.change span:nth-child(1) {
     top: 1.2rem;
     -webkit-transform: rotate(135deg);
     transform: rotate(135deg);
     width: 3.6rem;
-    left: 46%;    
+    left: 46%;   
+    color: #fff; 
 }
 
 .nav-icon.change span:nth-child(2) {
   opacity: 0;
   left: -60px;
+color: #fff; 
+
 }
 
 .nav-icon.change span:nth-child(3) {
@@ -142,5 +167,7 @@ width: 3.6rem;
     -webkit-transform: rotate(-135deg);
     transform: rotate(-135deg);
     left: 46%;
+        color: #fff; 
 
-}
+    
+    }
