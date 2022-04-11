@@ -183,9 +183,9 @@ function html5blank_styles() {
 function register_html5_menu() {
     register_nav_menus( array( // Using array to specify more menus if needed
         'header-menu'  => esc_html( 'Header Menu', 'html5blank' ), // Main Navigation
-        'second-menu'   => esc_html( 'Second Menu', 'html5blank' ), // Extra Navigation if needed (duplicate as many as you need!)
+        'second-menu'   => esc_html( 'Second Menu', 'html5blank' ), // First Footer Menu 
         
-        'third-menu'   => esc_html( 'Third Menu', 'html5blank' ) // Extra Navigation if needed (duplicate as many as you need!)
+        'third-menu'   => esc_html( 'Third Menu', 'html5blank' ) // Second Footer Menu 
 
     ) );
 }

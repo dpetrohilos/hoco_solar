@@ -3,10 +3,12 @@
 
 				
 <nav class="footer-nav grid-item-1 changa grid-item content">
-      <?php html5blank_nav('second-menu'); ?>
-</nav>
+<?php wp_nav_menu( array( 'theme_location' => 'second-menu', 'container' => false, 'menu_id' => 'second-menu', 'menu_class' => '', 'fallback_cb' => false ) );?>
+
+    
+    </nav>
 <nav class="footer-nav grid-item-2 changa grid-item content">
-      <?php html5blank_nav('third-menu'); ?>
+<?php wp_nav_menu( array( 'theme_location' => 'third-menu', 'container' => false, 'menu_id' => 'third-menu', 'menu_class' => '', 'fallback_cb' => false ) );?>
     
 
 
