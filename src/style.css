@@ -59,84 +59,95 @@ p, li, blockquote, q {
   .big small, .big .small {
     font-size: 2rem; }
 
-/* line 65, css/sass/modules/variables.scss */
+/* line 62, css/sass/modules/variables.scss */
+.text-wrapper {
+  color: #fff;
+  text-shadow: 0px -1px 3px rgba(0, 0, 0, 0.64); }
+  /* line 67, css/sass/modules/variables.scss */
+  .text-wrapper a {
+    color: #fff; }
+    /* line 69, css/sass/modules/variables.scss */
+    .text-wrapper a:hover {
+      color: #EF3A01; }
+
+/* line 78, css/sass/modules/variables.scss */
 .text-center {
   text-align: center; }
 
-/* line 68, css/sass/modules/variables.scss */
+/* line 81, css/sass/modules/variables.scss */
 .v-center {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
 
-/* line 69, css/sass/modules/variables.scss */
+/* line 82, css/sass/modules/variables.scss */
 .h-center {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
 
-/* line 70, css/sass/modules/variables.scss */
+/* line 83, css/sass/modules/variables.scss */
 .flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
 
-/* line 71, css/sass/modules/variables.scss */
+/* line 84, css/sass/modules/variables.scss */
 .block {
   display: block; }
 
-/* line 73, css/sass/modules/variables.scss */
+/* line 86, css/sass/modules/variables.scss */
 .text-center {
   text-align: center; }
 
-/* line 78, css/sass/modules/variables.scss */
+/* line 91, css/sass/modules/variables.scss */
 .light {
   background: #FFE4B1; }
 
-/* line 80, css/sass/modules/variables.scss */
+/* line 93, css/sass/modules/variables.scss */
 .red {
   background: #EF3A01;
   color: #fff; }
 
-/* line 83, css/sass/modules/variables.scss */
+/* line 96, css/sass/modules/variables.scss */
 .orange {
   background: #FB9D29;
   color: #fff; }
 
-/* line 86, css/sass/modules/variables.scss */
+/* line 99, css/sass/modules/variables.scss */
 .sidebar {
   border: #FB9D29 solid 2px;
   color: #FB9D29; }
 
-/* line 89, css/sass/modules/variables.scss */
+/* line 102, css/sass/modules/variables.scss */
 .w {
   color: #fff; }
 
-/* line 93, css/sass/modules/variables.scss */
+/* line 106, css/sass/modules/variables.scss */
 .o {
   color: #FB9D29; }
 
 /**
  * Grid
  */
-/* line 102, css/sass/modules/variables.scss */
+/* line 115, css/sass/modules/variables.scss */
 .content {
   padding: 3vh 3.5vw; }
 
-/* line 108, css/sass/modules/variables.scss */
+/* line 121, css/sass/modules/variables.scss */
 .content-tb {
   padding: 3vh 0; }
 
-/* line 112, css/sass/modules/variables.scss */
+/* line 125, css/sass/modules/variables.scss */
 .content-lr {
   padding: 0 3.5vw; }
 
-/* line 117, css/sass/modules/variables.scss */
+/* line 130, css/sass/modules/variables.scss */
 .td {
   top: 1.2rem;
   position: absolute; }
 
-/* line 122, css/sass/modules/variables.scss */
+/* line 135, css/sass/modules/variables.scss */
 .grid {
   display: grid;
   grid-template-rows: auto;
@@ -149,25 +160,15 @@ p, li, blockquote, q {
   grid-row-gap: 1.6rem;
   margin-top: 1.6rem; }
 
-/* line 137, css/sass/modules/variables.scss */
+/* line 150, css/sass/modules/variables.scss */
 .grid-area {
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: repeat(auto-fit, minmax(2.8rem, 1fr)); }
-  /* line 142, css/sass/modules/variables.scss */
+  /* line 155, css/sass/modules/variables.scss */
   .grid-area header, .grid-area section {
     grid-column: 1 / span 1;
     grid-row: 1 / span 1; }
-  /* line 149, css/sass/modules/variables.scss */
-  .grid-area .text-wrapper {
-    color: #fff;
-    text-shadow: 0px -1px 3px rgba(0, 0, 0, 0.64); }
-    /* line 154, css/sass/modules/variables.scss */
-    .grid-area .text-wrapper a {
-      color: #fff; }
-      /* line 156, css/sass/modules/variables.scss */
-      .grid-area .text-wrapper a:hover {
-        color: #EF3A01; }
 
 /* line 167, css/sass/modules/variables.scss */
 .grid-wrapper-1 {
