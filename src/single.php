@@ -13,12 +13,14 @@
 			<!-- /post thumbnail -->
 
 			<!-- post title -->
-			<h1><?php the_title(); ?>
-			</h1>
 			<!-- /post title -->
         </header>
 <section>
-			<!-- post details -->
+				<h1><?php the_title(); ?>
+			</h1>
+		
+    
+    <!-- post details -->
 			<span class="date">
 				<time datetime="<?php the_time( 'Y-m-d' ); ?> <?php the_time( 'H:i' ); ?>">
 					<?php the_date(); ?> <?php the_time(); ?>
