@@ -23,14 +23,14 @@
 							<img height="122" width="324" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo-white-footer.svg" alt="Howard County Solar Farm" class="logo-img">
 						</a>
             
-    </div><div class="gf2">                      
+    </div><div class="gf2 v-center h-center">                      
 <a title="link to my utulity advisor" href="http://www.myutilityadvisor.com/">
 <img height="50" width="220" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Utility-Advisor-Horizontal-WHITE.png" alt="My Utility Advisor" class="logo-img">
 
 </a>
 
     </div></div>
-                <div class="grid-item-5 changa content grid-item v-center h-center">
+                <div class="grid-item-5 changa content grid-item">
                 <!-- copyright -->
 			    <?php
 				    printf( '<p class="copyright changa ">' . __( '&copy; %1$s Copyright %2$s. Powered by <a href="%3$s" title="WordPress">WordPress</a> &amp; <a href="%4$s" title="HTML5 Blank">HTML5 Blank</a>.', 'html5blank' ) . ' Designed by <a href="repeater.digital" title="link to Repeater Digital Site">Repeater.Digital</p>',
