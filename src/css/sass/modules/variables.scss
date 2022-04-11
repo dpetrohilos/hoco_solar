@@ -31,8 +31,9 @@ h1,h2,h3,h4,h5,h6, .changa {
     
 font-family: 'Changa One', cursive;
 line-height: 1;
-margin-block-start: 1rem;
-margin-block-end: 1rem;    
+margin-block-start: 1.2rem;
+margin-block-end: 1.6rem;
+font-size: clamp(2.2rem, 4vw, 3.6rem); text-transform: uppercase;    
 }
 
 p, li, blockquote, q {
