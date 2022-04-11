@@ -15,7 +15,7 @@
 			<!-- post title -->
 			<!-- /post title -->
         </header>
-<section>
+<section class="text-wrapper content">
 	
     			<h1 class="intro"><?php the_title(); ?>
 			</h1>
