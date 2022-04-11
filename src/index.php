@@ -1,9 +1,9 @@
 <?php get_header(); ?>
 
 <main role="main" aria-label="Content" class="grid grid-wrapper-2">
-<div class="grid-item-1 grid-item bg-cover-1 content">
+<div class="grid-item-1 grid-item bg-cover-1 content text-wrapper">
 <p class="w">Est. 2022</p>
-<h1 class="intro w text-wrapper">Howard County's Most Affordable Solar Farm</h1>    
+<h1 class="intro w">Howard County's Most Affordable Solar Farm</h1>    
 </div>
 <div class="light content subgrid grid-item-2 grid-item">
             
@@ -53,9 +53,9 @@ money.</p>
     
     </div>
     
-<div class="grid-item-4 grid-item bg-cover-2 content flex v-center">
+<div class="grid-item-4 grid-item bg-cover-2 content flex v-center text-wrapper">
     
-           <h5 class="headline w text-wrapper">Solar Energy Independence</h5> 
+           <h5 class="headline w">Solar Energy Independence</h5> 
 
     </div>
 
