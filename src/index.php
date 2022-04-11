@@ -27,11 +27,11 @@
 
 <div class="grid grid-wrapper-3">
     
-    <div class="red subgrid grid-item-1 content grid-item flex v-center">
+    <div class="red subgrid grid-item-1 content grid-item flex v-center text-wrapper">
         <h3 class="headline w subgrid-item-2">Locally Sourced</h3>
         
     </div>
-    <div class="orange subgrid grid-item-2 content grid-item flex v-center">
+    <div class="orange subgrid grid-item-2 content grid-item flex v-center text-wrapper">
             <h4 class="headline w subgrid-item-3">Our Future</h4>
 
     
