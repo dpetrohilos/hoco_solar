@@ -20,7 +20,7 @@
                 	<div class="logo grid-item-4 grid-item content-tb">
 						<a href="<?php echo esc_url( home_url() ); ?>">
 							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-							<img height="122" width="324" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/HC-White.svg" alt="Howard County Solar Farm" class="logo-img">
+							<img height="122" width="324" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo-white-footer" alt="Howard County Solar Farm" class="logo-img">
 						</a>
 
                 </div>
