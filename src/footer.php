@@ -1,30 +1,27 @@
 			<!-- footer -->
-			<footer class="footer grid grid-wrapper-4" role="contentinfo">
+<footer class="footer grid grid-wrapper-4" role="contentinfo">
 
 				
-                <nav class="footer-nav grid-item-1 changa grid-item content">
+<nav class="footer-nav grid-item-1 changa grid-item content">
                       <?php html5blank_nav('footer-1'); ?>
-    
-                </nav>
-                <nav class="footer-nav grid-item-2 changa grid-item content">
+</nav>
+<nav class="footer-nav grid-item-2 changa grid-item content">
                       <?php html5blank_nav('footer-2'); ?>
     
-                </nav>
+</nav>
                 
-                
-                <div class="grid-item-3 grid-item changa content-tb"><h6 class="intro ">Questions?</h6>
+<div class="grid-item-3 grid-item changa content-tb"><h6 class="intro ">Questions?</h6>
                     <p>Info at hocosolarfarm dot com</p>
                 
-                </div>
+</div>
                 
-                	<div class="logo grid-item-4 grid-item content-tb">
-						<a href="<?php echo esc_url( home_url() ); ?>">
+<div class="logo grid-item-4 grid-item content-tb grid-area-footer">
+						
+    
+<a href="<?php echo esc_url( home_url() ); ?>">
 							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
 							<img height="122" width="324" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo-white-footer.svg" alt="Howard County Solar Farm" class="logo-img">
 						</a>
-
-                </div>
-                            	<div class="logo grid-item-5 grid-item content-tb">
             
                         
 <a title="link to my utulity advisor" href="http://www.myutilityadvisor.com/">
