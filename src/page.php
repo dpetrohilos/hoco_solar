@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="grid-wrapper-internal-top" area-label="content" role="heading">
+<div class="grid-wrapper-internal-top grid-area" area-label="content" role="heading">
 	<?php if ( have_posts() ) : while (have_posts() ) : the_post(); ?>
 
 		<!-- article -->
@@ -16,7 +16,8 @@
 			<h1><?php the_title(); ?>
 			</h1>
 			<!-- /post title -->
-
+        </header>
+<section>
 			<!-- post details -->
 			<span class="date">
 				<time datetime="<?php the_time( 'Y-m-d' ); ?> <?php the_time( 'H:i' ); ?>">
@@ -26,7 +27,8 @@
 			<span class="author"><?php esc_html_e( 'Published by', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
 			<span class="comments"><?php if ( comments_open( get_the_ID() ) ) comments_popup_link( __( 'Leave your thoughts', 'html5blank' ), __( '1 Comment', 'html5blank' ), __( '% Comments', 'html5blank' ) ); ?></span>
 			<!-- /post details -->
-        </header>
+    
+    </section>
         
 </div>    
         
@@ -34,9 +36,7 @@
         <article class="grid-item-1-internal article">
 			<?php the_content(); // Dynamic Content. ?>
 
-			<?php the_tags( __( 'Tags: ', 'html5blank' ), ', ', '<br>' ); // Separated by commas with a line break at the end. ?>
 
-			<p><?php esc_html_e( 'Categorised in: ', 'html5blank' ); the_category( ', ' ); // Separated by commas. ?></p>
 
 			<p><?php esc_html_e( 'This post was written by ', 'html5blank' ); the_author(); ?></p>
 

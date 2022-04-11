@@ -127,6 +127,19 @@ padding: 3vh 3.5vw;
     
 }
 
+.grid-area {
+    display: grid; 
+    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(2.8rem, 1fr));
+
+    header, section {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;    
+
+        
+    }
+}
+
 // grid rows 
 
 .grid-wrapper-1 {
