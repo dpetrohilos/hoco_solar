@@ -60,7 +60,7 @@
 
 					
 			
-<div class="logo">
+<div class="logo logo-small">
 						<a href="<?php echo esc_url( home_url() ); ?>">
 							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
 							<img width="43" height="56" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/HC-Logo.svg" alt="Howard County Solar Farm" class="logo-img">

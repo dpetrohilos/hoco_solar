@@ -862,6 +862,11 @@ input[type="search"] {
  * partials/header
  * ---
  */
+/* line 15, css/sass/partials/header.scss */
+.logo-small {
+  width: 5rem;
+  min-width: 5rem; }
+
 /**
  * partials/nav
  * ---
