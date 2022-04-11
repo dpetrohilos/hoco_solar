@@ -1044,6 +1044,20 @@ input[type="search"] {
       padding: 1.2rem 0;
       width: 100%; }
 
+/* line 39, css/sass/partials/footer.scss */
+.grid-area-footer-logo {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: repeat(auto-fit, minmax(2.8rem, 2fr)); }
+  /* line 46, css/sass/partials/footer.scss */
+  .grid-area-footer-logo .gf1 {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1; }
+  /* line 51, css/sass/partials/footer.scss */
+  .grid-area-footer-logo .gf2 {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1; }
+
 /**
  * partials/print
  * ---
