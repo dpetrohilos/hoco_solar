@@ -3,10 +3,10 @@
 
 				
 <nav class="footer-nav grid-item-1 changa grid-item content">
-                      <?php html5blank_nav('footer-1'); ?>
+                      <?php html5blank_nav('second-menu'); ?>
 </nav>
 <nav class="footer-nav grid-item-2 changa grid-item content">
-                      <?php html5blank_nav('footer-2'); ?>
+                      <?php html5blank_nav('third-menu'); ?>
     
 </nav>
                 
