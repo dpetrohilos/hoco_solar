@@ -73,11 +73,7 @@ p, li, blockquote, q {
         
 
     }
-
-
 .text-center {text-align: center;}
-
-
 .v-center {align-items: center;}
 .h-center {justify-content: center;}
 .flex {display: flex; }
@@ -704,7 +700,6 @@ grid-column: 1 / span 12;
 } 
 }
 @media only screen and (max-width: 42em) {
-
 .grid {
     display: grid;
     grid-template-rows: 1.2rem;
@@ -858,8 +853,6 @@ grid-column: 1 / span 12;
 
     
 }
-
-
 // typography color 
 
 .blockquote {
