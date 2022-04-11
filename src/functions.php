@@ -84,7 +84,6 @@ function html5blank_nav() {
         'depth'           => 0,
         'walker'          => '',
         
-        
         'theme_location'  => 'second-menu',
         'menu'            => 'second-menu',
         'container'       => 'div',
