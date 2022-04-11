@@ -23,7 +23,7 @@
 							<img height="122" width="324" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo-white-footer.svg" alt="Howard County Solar Farm" class="logo-img">
 						</a>
             
-    </div><div class="gf2 v-center h-center">                      
+    </div><div class="gf2 v-center h-center flex">                      
 <a title="link to my utulity advisor" href="http://www.myutilityadvisor.com/">
 <img height="50" width="220" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Utility-Advisor-Horizontal-WHITE.png" alt="My Utility Advisor" class="logo-img">
 
