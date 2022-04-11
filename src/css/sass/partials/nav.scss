@@ -13,6 +13,7 @@ max-width: $wrapper-width;
 width: 100vw;
 margin: 0 auto;
 padding-top: 7.2rem;
+font-family: 'Changa One', cursive;
     
     ul {
         width: 100%;
@@ -67,7 +68,7 @@ z-index: 999;
   width: 0;
   height: 0;
   margin: 0;
-  background: black; 
+  background: $orange; 
   transition: 0.3s ease;
 }
 
@@ -110,7 +111,7 @@ margin-left: auto;
   position: absolute;
   height: .1rem;
   width: 100%;
-  background: black;
+  background: $orange;
   border-radius: 9px;
   opacity: 1;
   left: 0;

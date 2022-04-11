@@ -11,8 +11,8 @@ Error: Undefined variable: "$wrapper-width".
 13: width: 100vw;
 14: margin: 0 auto;
 15: padding-top: 7.2rem;
-16:     
-17:     ul {
+16: font-family: 'Changa One', cursive;
+17:     
 
 Backtrace:
 /Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/partials/nav.scss:12
@@ -68,4 +68,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$wrapper-width\".\A         on line 12 of /Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/partials/nav.scss\A \A 7: \A 8: \A 9: \A 10: .menu {\A 11: \A 12: max-width: $wrapper-width;\A 13: width: 100vw;\A 14: margin: 0 auto;\A 15: padding-top: 7.2rem;\A 16:     \A 17:     ul {"; }
+  content: "Error: Undefined variable: \"$wrapper-width\".\A         on line 12 of /Users/dylanpetrohilos/Creative Cloud Files/Hoco Solar Farm/hocodev/src/css/sass/partials/nav.scss\A \A 7: \A 8: \A 9: \A 10: .menu {\A 11: \A 12: max-width: $wrapper-width;\A 13: width: 100vw;\A 14: margin: 0 auto;\A 15: padding-top: 7.2rem;\A 16: font-family: 'Changa One', cursive;\A 17:     "; }
