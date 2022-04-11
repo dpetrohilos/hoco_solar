@@ -1037,7 +1037,7 @@ input[type="search"] {
     /* line 30, css/sass/partials/footer.scss */
     .footer ul li {
       list-style: none;
-      padding: 1.2rem 0;
+      padding: .8rem 0 0;
       width: 100%; }
 
 /* line 39, css/sass/partials/footer.scss */
