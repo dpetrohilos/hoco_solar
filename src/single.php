@@ -40,7 +40,6 @@
 
 
 
-			<p><?php esc_html_e( 'This post was written by ', 'html5blank' ); the_author(); ?></p>
 
 			<?php edit_post_link(); // Always handy to have Edit Post Links available. ?>
 
