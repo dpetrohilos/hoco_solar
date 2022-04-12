@@ -220,10 +220,12 @@ padding-left: 3.5vw;
             flex-direction: column; 
             
             img {
-             margin-top: auto; 
-            max-width: 54rem; 
-            width: 100%; 
-                
+    margin-top: auto;
+    max-width: 54rem;
+    width: 100%;
+    height: auto;
+    top: 4px;
+    position: relative                
             }
             
         }
