@@ -20,20 +20,6 @@
     margin-top: 1.6rem;
     
     
-    
-    
-}
-
-// Logo
-.logo {}
-
-.logo-img {}
-
-.logo-small {
-    width: 5rem; 
-    min-width: 5rem; 
-}
-
 .grid-item-1 {
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
@@ -63,4 +49,17 @@
     }
     
     
+}
+    
+    
+}
+
+// Logo
+.logo {}
+
+.logo-img {}
+
+.logo-small {
+    width: 5rem; 
+    min-width: 5rem; 
 }
