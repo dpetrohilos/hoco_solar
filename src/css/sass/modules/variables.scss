@@ -168,16 +168,6 @@ padding: 2vh 3.5vw;
         border-radius: 1rem; 
     }
     
-    .bg-cover-1 {
-        
-        background: url(img/hoco@2x.png), url(img/img-1.jpg);
-        background-size: auto 9.2rem, auto 100%;
-        background-repeat: no-repeat, no-repeat;
-        background-position: 3.4vw 100%, center center; 
-        
-        }
-    
-    
     .no {
         border-radius: 0; 
     }
@@ -192,11 +182,14 @@ padding: 2vh 3.5vw;
     grid-template-columns: repeat(auto-fit, minmax(2.8rem, 1fr));
 
         
-        div {
+    div {
             
             display: flex; 
             grid-column: 1 / span 1;
             grid-row: 1 / span 1;
+        
+        
+        
 
         }
         
