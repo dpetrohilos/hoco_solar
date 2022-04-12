@@ -32,7 +32,7 @@
     
     
 <div class="logo grid-item-2 grid-item content-tb grid-area-footer-logo content">
-<div class="gf1 v-center h-center flex">						
+<div class="gf1 v-center h-center flex content">						
     
 <a href="<?php echo esc_url( home_url() ); ?>">
 							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
@@ -42,7 +42,7 @@
     </div>
     
     
-<div class="gf2 v-center h-center flex">                      
+<div class="gf2 v-center h-center flex content">                      
 <a title="link to my utulity advisor" href="http://www.myutilityadvisor.com/">
 <img height="50" width="220" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Utility-Advisor-Horizontal-WHITE.png" alt="My Utility Advisor" class="logo-img">
 
