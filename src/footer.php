@@ -20,23 +20,9 @@
 </div>
 </div>
     
-<div class="bottom-footer-row">               
-<div class="logo grid-item-1 grid-item content-tb grid-area-footer-logo">
-<div class="gf1 v-center h-center flex content">						
-    
-<a href="<?php echo esc_url( home_url() ); ?>">
-							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-							<img height="122" width="324" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo-white-footer.svg" alt="Howard County Solar Farm" class="logo-img">
-						</a>
-            
-    </div><div class="gf2 v-center h-center flex content">                      
-<a title="link to my utulity advisor" href="http://www.myutilityadvisor.com/">
-<img height="50" width="220" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Utility-Advisor-Horizontal-WHITE.png" alt="My Utility Advisor" class="logo-img">
+<div class="bottom-footer-row">
 
-</a>
-
-    </div></div>
-<div class="grid-item-2 changa content grid-item">
+<div class="grid-item-1 changa content grid-item">
                 <!-- copyright -->
 			    <?php
 				    printf( '<p class="copyright changa ">' . __( '&copy; %1$s Copyright %2$s. Powered by <a href="%3$s" title="WordPress">WordPress</a> &amp; <a href="%4$s" title="HTML5 Blank">HTML5 Blank</a>.', 'html5blank' ) . ' Designed by <a href="repeater.digital" title="link to Repeater Digital Site">Repeater.Digital</p>',
@@ -47,7 +33,22 @@
 					);
 				?>
 				<!-- /copyright -->
-                </div>
+                </div>    
+<div class="logo grid-item-2 grid-item content-tb grid-area-footer-logo">
+<div class="gf1">						
+    
+<a href="<?php echo esc_url( home_url() ); ?>">
+							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
+							<img height="122" width="324" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/logo-white-footer.svg" alt="Howard County Solar Farm" class="logo-img">
+						</a>
+            
+    </div><div class="gf2 v-center h-center flex">                      
+<a title="link to my utulity advisor" href="http://www.myutilityadvisor.com/">
+<img height="50" width="220" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Utility-Advisor-Horizontal-WHITE.png" alt="My Utility Advisor" class="logo-img">
+
+</a>
+
+    </div></div>
 </div>			
     
     
