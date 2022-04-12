@@ -25,7 +25,7 @@
     </a>   
 </div>
 <div class="fg-image-wrapper">
-        <img height="72" width="300" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hoco.png" alt="Howard County Solar Farm" class="no">
+        <img height="170" width="654" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hoco.png" alt="Howard County Solar Farm" class="no">
 
     </div>
     
