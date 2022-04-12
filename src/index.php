@@ -3,7 +3,7 @@
 <main role="main" aria-label="Content" class="grid grid-wrapper-2">
 <div class="grid-item-1 grid-item text-wrapper">
     
-    <div><img height="1200" width="1200" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/img-1.jpg" alt="Beautiful Image of a Solar Farm"></div>
+    <div><img height="1200" width="2400" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/img-1.jpg" alt="Beautiful Image of a Solar Farm"></div>
   
 <div class="content"><p class="w">Est. 2022</p>
 <h1 class="intro w">Howard County's Most Affordable Solar Farm</h1>    
