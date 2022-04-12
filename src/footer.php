@@ -31,7 +31,7 @@
 </div>
     
     
-<div class="logo grid-item-2 grid-item content-tb grid-area-footer-logo">
+<div class="logo grid-item-2 grid-item content-tb grid-area-footer-logo content">
 <div class="gf1 v-center h-center flex">						
     
 <a href="<?php echo esc_url( home_url() ); ?>">
