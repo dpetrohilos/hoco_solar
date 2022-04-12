@@ -2,8 +2,15 @@
 
 <main role="main" aria-label="Content" class="grid grid-wrapper-2">
 <div class="grid-item-1 grid-item bg-cover-1 content text-wrapper">
-<p class="w">Est. 2022</p>
+    
+    <div><img height="1200" width="1200" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/img-1.jpg" alt="Beautiful Image of a Solar Farm"></div>
+  
+<div><p class="w">Est. 2022</p>
 <h1 class="intro w">Howard County's Most Affordable Solar Farm</h1>    
+</div>
+    
+    <div><img height="200" width="1200" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hoco.svg" alt="Hoco Typography Element"></div>
+    
 </div>
 <div class="light content subgrid grid-item-2 grid-item">
             
