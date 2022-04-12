@@ -123,6 +123,26 @@ function html5blank_nav() {
 
 
 
+
+// Load HTML5 Blank styles
+function html5blank_styles() {
+    if ( HTML5_DEBUG ) {
+        // normalize-css
+        wp_register_style( 'normalize', get_template_directory_uri() . '/css/lib/normalize.css', array(), '7.0.0' );
+
+        // Custom CSS
+        wp_register_style( 'html5blank', get_template_directory_uri() . '/style.css', array( 'normalize' ), '1.0' );
+
+        // Register CSS
+        wp_enqueue_style( 'html5blank' );
+    } else {
+        // Custom CSS
+        wp_register_style( 'html5blankcssmin', get_template_directory_uri() . '/style.css', array(), '1.0' );
+        // Register CSS
+        wp_enqueue_style( 'html5blankcssmin' );
+    }
+}
+
 // Register HTML5 Blank Navigation
 function register_html5_menu() {
     register_nav_menus( array( // Using array to specify more menus if needed
