@@ -880,7 +880,13 @@ input[type="search"] {
       grid-column: 2 / span 1;
       grid-row: 1 / span 1; }
 
-/* line 63, css/sass/partials/header.scss */
+/* line 61, css/sass/partials/header.scss */
+.logo-img {
+  width: 24rem;
+  height: auto;
+  padding: 0; }
+
+/* line 68, css/sass/partials/header.scss */
 .logo-small {
   width: 5rem;
   min-width: 5rem; }
