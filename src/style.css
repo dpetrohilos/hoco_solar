@@ -1026,7 +1026,7 @@ input[type="search"] {
     .bottom-footer-row .grid-item-2 {
       grid-column: 2 / span 1;
       grid-row: 1 / span 1; } }
-@media only screen and (max-width: 92em) {
+@media only screen and (max-width: 42em) {
   /* line 123, css/sass/partials/footer.scss */
   .top-footer-row {
     display: grid;
