@@ -3,7 +3,8 @@
 <main role="main" aria-label="Content" class="grid grid-wrapper-2">
 <div class="grid-item-1 grid-item bg-cover-1 content text-wrapper">
 <p class="w">Est. 2022</p>
-<h1 class="intro w">Howard County's Most Affordable Solar Farm</h1>    
+<a href="http://hocosolarfarm.com/community-solar-for-hoco/" title="HOCO SOLAR FARM INVESTS IN OUR FUTURE"><h1 class="intro w">Howard County's Most Affordable Solar Farm</h1> 
+    </a>   
 </div>
 <div class="light content subgrid grid-item-2 grid-item">
             
@@ -28,11 +29,11 @@
 <div class="grid grid-wrapper-3">
     
     <div class="red subgrid grid-item-1 content grid-item flex v-center text-wrapper">
-        <h3 class="headline w subgrid-item-2">Locally Sourced</h3>
+       <a href="http://hocosolarfarm.com/community-solar-for-hoco/" title="link to article"> <h3 class="headline w subgrid-item-2">Locally Sourced</h3></a>
         
     </div>
     <div class="orange subgrid grid-item-2 content grid-item flex v-center text-wrapper">
-            <h4 class="headline w subgrid-item-3">Our Future</h4>
+        <a href="http://hocosolarfarm.com/community-solar-for-hoco/" title="HOCO SOLAR FARM INVESTS IN OUR FUTURE"> <h4 class="headline w subgrid-item-3">Our Future</h4></a>
 
     
     </div>
@@ -55,7 +56,7 @@ money.</p>
     
 <div class="grid-item-4 grid-item bg-cover-2 content flex v-center text-wrapper">
     
-           <h5 class="headline w">Solar Energy Independence</h5> 
+    <a href="http://hocosolarfarm.com/community-solar-for-hoco/" title="link to article"><h5 class="headline w">Solar Energy Independence</h5> </a>
 
     </div>
 
