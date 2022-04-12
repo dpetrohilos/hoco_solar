@@ -23,16 +23,11 @@
 <div class="bottom-footer-row">
 
 <div class="grid-item-1 changa content grid-item">
-                <!-- copyright -->
-			    <?php
-				    printf( '<p class="copyright changa ">' . __( '&copy; %1$s Copyright %2$s. Powered by <a href="%3$s" title="WordPress">WordPress</a> &amp; <a href="%4$s" title="HTML5 Blank">HTML5 Blank</a>.', 'html5blank' ) . ' Designed by <a href="repeater.digital" title="link to Repeater Digital Site">Repeater.Digital</p>',
-				    	date( 'Y'),
-				    	esc_html( get_bloginfo( 'name' ) ),
-				    	'//wordpress.org',
-				    	'//html5blank.com'
-					);
-				?>
-				<!-- /copyright -->
+    <p>&copy; <?php echo date("Y"); ?> Copyright Howard County Solar Farm. Powered by <a href="www.wordpress.org" title="link to wordpress site">WordPress</a> &amp; <a href="http://www.html5blank.com/" title="link to html5 blank">HTML5 Blank.</a> Designed by <a href="repeater.digital" title="link to Repeater Digital Site">Repeater.Digital</a></p>
+
+
+    
+    
 </div>
     
     
