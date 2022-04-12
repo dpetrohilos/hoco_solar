@@ -1,6 +1,5 @@
 			<!-- footer -->
-<footer class="footer grid grid-wrapper-4" role="contentinfo">
-
+<footer class="footer grid-wrapper-4" role="contentinfo">
 <div class="top-footer-row">			
 <nav class="footer-nav grid-item-2 changa grid-item content">
 <?php wp_nav_menu( array( 'theme_location' => 'second-menu', 'container' => false, 'menu_id' => 'second-menu', 'menu_class' => '', 'fallback_cb' => false ) );?>
@@ -19,7 +18,9 @@
                     <p>Info at hocosolarfarm dot com</p>
                 
 </div>
-</div><div class="bottom-footer-row">               
+</div>
+    
+<div class="bottom-footer-row">               
 <div class="logo grid-item-1 grid-item content-tb grid-area-footer-logo">
 <div class="gf1">						
     
