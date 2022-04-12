@@ -1,7 +1,7 @@
 			<!-- footer -->
 <footer class="footer grid grid-wrapper-4" role="contentinfo">
 
-				
+<div class="top-footer-row">			
 <nav class="footer-nav grid-item-2 changa grid-item content">
 <?php wp_nav_menu( array( 'theme_location' => 'second-menu', 'container' => false, 'menu_id' => 'second-menu', 'menu_class' => '', 'fallback_cb' => false ) );?>
 
@@ -19,8 +19,8 @@
                     <p>Info at hocosolarfarm dot com</p>
                 
 </div>
-                
-<div class="logo grid-item-4 grid-item content-tb grid-area-footer-logo">
+</div><div class="bottom-footer-row">               
+<div class="logo grid-item-1 grid-item content-tb grid-area-footer-logo">
 <div class="gf1">						
     
 <a href="<?php echo esc_url( home_url() ); ?>">
@@ -35,7 +35,7 @@
 </a>
 
     </div></div>
-                <div class="grid-item-5 changa content grid-item">
+<div class="grid-item-2 changa content grid-item">
                 <!-- copyright -->
 			    <?php
 				    printf( '<p class="copyright changa ">' . __( '&copy; %1$s Copyright %2$s. Powered by <a href="%3$s" title="WordPress">WordPress</a> &amp; <a href="%4$s" title="HTML5 Blank">HTML5 Blank</a>.', 'html5blank' ) . ' Designed by <a href="repeater.digital" title="link to Repeater Digital Site">Repeater.Digital</p>',
@@ -47,7 +47,11 @@
 				?>
 				<!-- /copyright -->
                 </div>
-			</footer>
+</div>			
+    
+    
+    
+    </footer>
 			<!-- /footer -->
 
 		</div>
