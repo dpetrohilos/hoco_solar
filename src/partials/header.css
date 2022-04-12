@@ -25,17 +25,18 @@
     display: grid;
     grid-column-gap: 1.6rem;
     grid-row-gap: 1.6rem;
-    max-width: 14rem; }
-    /* line 39, ../css/sass/partials/header.scss */
+    max-width: 14rem;
+    margin-left: auto; }
+    /* line 40, ../css/sass/partials/header.scss */
     .header .grid-item-2 .logo-small {
       grid-column: 1 / span 1;
       grid-row: 1 / span 1; }
-    /* line 45, ../css/sass/partials/header.scss */
+    /* line 46, ../css/sass/partials/header.scss */
     .header .grid-item-2 .nav-icon {
       grid-column: 2 / span 1;
       grid-row: 1 / span 1; }
 
-/* line 62, ../css/sass/partials/header.scss */
+/* line 63, ../css/sass/partials/header.scss */
 .logo-small {
   width: 5rem;
   min-width: 5rem; }
