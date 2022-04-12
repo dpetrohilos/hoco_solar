@@ -184,16 +184,47 @@ padding: 2vh 3.5vw;
         
     div {
             
-            display: flex; 
             grid-column: 1 / span 1;
             grid-row: 1 / span 1;
-        
-        
-        
 
         }
         
+    div:nth-child(1) {
+        
+        img {
+                    object-fit: fill
+
+        }
+        
+        }
+        
+        div:nth-child(2) {
+            
+            
+        }
+    
+    
+        div:nth-child(3) {
+            
+            display: flex; 
+            align-content: flex-end;
+            align-items: flex-end; 
+            
+            svg {
+                
+                max-width: 30rem; 
+                margin-top: 1rem;
+                
+            }
+            
+        }
+    
+    
     }
+    
+    
+    
+    
     
     div.grid-item-2 {
     grid-column: 15 / span 10;
@@ -589,15 +620,6 @@ div.grid-item-2 {
 .grid-wrapper-1 {}
 .grid-wrapper-2 {
     
-.bg-cover-1 {
-        
-        background: url(img/hoco@2x.png), url(img/img-1.jpg);
-        background-size: auto 9.2rem, cover;
-        background-repeat: no-repeat, no-repeat;
-        background-position: 3.4vw 100%, center center; 
-        
-        }    
-       
 div.grid-item-1 {    
     grid-column: 1 / span 12;
     grid-row: 1 / span 16;
