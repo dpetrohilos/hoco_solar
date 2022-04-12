@@ -32,7 +32,7 @@
     
     
 <div class="logo grid-item-2 grid-item content-tb grid-area-footer-logo">
-<div class="gf1">						
+<div class="gf1 v-center h-center flex">						
     
 <a href="<?php echo esc_url( home_url() ); ?>">
 							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
