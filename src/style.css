@@ -875,12 +875,13 @@ input[type="search"] {
   grid-row: 1 / span 1;
   display: grid;
   grid-column-gap: 1.6rem;
-  grid-row-gap: 1.6rem; }
-  /* line 52, css/sass/partials/header.scss */
+  grid-row-gap: 1.6rem;
+  max-width: 14rem; }
+  /* line 53, css/sass/partials/header.scss */
   .grid-item-2 .logo-small {
     grid-column: 1 / span 1;
     grid-row: 1 / span 1; }
-  /* line 58, css/sass/partials/header.scss */
+  /* line 59, css/sass/partials/header.scss */
   .grid-item-2 .nav-icon {
     grid-column: 2 / span 1;
     grid-row: 1 / span 1; }
