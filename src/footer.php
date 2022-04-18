@@ -23,7 +23,7 @@
 <div class="bottom-footer-row">
 
 <div class="grid-item-1 changa content grid-item">
-    <p>&copy; <?php echo date("Y"); ?> Copyright Howard County Solar Farm. Powered by <a href="www.wordpress.org" title="link to wordpress site">WordPress</a> &amp; <a href="http://www.html5blank.com/" title="link to html5 blank">HTML5 Blank.</a> Designed by <a href="repeater.digital" title="link to Repeater Digital Site">Repeater.Digital</a></p>
+    <p>&copy; <?php echo date("Y"); ?> Copyright Howard County Solar Farm. Powered by <a href="www.wordpress.org" title="link to wordpress site">WordPress</a> &amp; <a href="http://www.html5blank.com/" title="link to html5 blank">HTML5 Blank.</a> Designed by <a href="https://www.repeater.digital" title="link to Repeater Digital Site">Repeater.Digital</a></p>
 
 
     
@@ -43,7 +43,7 @@
     
     
 <div class="gf2 v-center h-center flex content">                      
-<a title="link to my utulity advisor" href="http://www.myutilityadvisor.com/">
+<a title="link to my utulity advisor" href="https://www.myutilityadvisor.com/">
 <img height="50" width="220" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/Utility-Advisor-Horizontal-WHITE.png" alt="My Utility Advisor" class="logo-img">
 
 </a>
