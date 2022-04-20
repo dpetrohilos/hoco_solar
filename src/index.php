@@ -21,7 +21,9 @@
 </div>  
 <div class="content content-wrapper">    
 <p class="w">Est. 2022</p>
-<a href="https://hocosolarfarm.com/community-solar-for-hoco/" title="HOCO SOLAR FARM INVESTS IN OUR FUTURE"><h1 class="headline w">Howard County's Most Affordable Solar Farm</h1> 
+<a href="https://hocosolarfarm.com/community-solar-for-hoco/" title="HOCO SOLAR FARM INVESTS IN OUR FUTURE"><h1 class="headline w">
+    Howard County's <span>no cost</span> solar farm    
+</h1> 
     </a>   
 </div>
 <div class="fg-image-wrapper">
