@@ -98,7 +98,7 @@ money.</p>
         
 </div>
 <div class="flex v-center content content-wrapper">    
-    <a href="https://hocosolarfarm.com/community-solar-for-hoco/" title="link to article"><h5 class="headline w content">Solar Energy Independence</h5> </a>
+    <a href="https://hocosolarfarm.com/howard-county-community-solar-means-no-more-oil/" title="link to article"><h5 class="headline w content">Solar Energy Independence</h5> </a>
 
     </div>
 
