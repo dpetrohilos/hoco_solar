@@ -21,10 +21,10 @@
 </div>  
 <div class="content content-wrapper">    
 <p class="w">Est. 2022</p>
-<a href="https://hocosolarfarm.com/community-solar-for-hoco/" title="HOCO SOLAR FARM INVESTS IN OUR FUTURE"><h1 class="headline w">
+    
+<h1 class="headline w">
     Howard County's <span>no cost</span> solar farm    
 </h1> 
-    </a>   
 </div>
 <div class="fg-image-wrapper">
         <img height="170" width="654" src="<?php echo esc_url( get_template_directory_uri() ); ?>/img/hoco.png" alt="Howard County Solar Farm" class="no">
@@ -56,11 +56,12 @@
 <div class="grid grid-wrapper-3">
     
     <div class="red subgrid grid-item-1 content grid-item flex v-center text-wrapper">
-       <a href="https://hocosolarfarm.com/community-solar-for-hoco/" title="link to article"> <h3 class="headline w subgrid-item-2">Locally Sourced</h3></a>
+       <a href="https://hocosolarfarm.com/hoco-solar-farm-invests-in-our-future/" title="link to article: HOWARD COUNTY COMMUNITY SOLAR DEPENDS ON YOU
+"> <h3 class="headline w subgrid-item-2">Locally Sourced</h3></a>
         
     </div>
     <div class="orange subgrid grid-item-2 content grid-item flex v-center text-wrapper">
-        <a href="https://hocosolarfarm.com/community-solar-for-hoco/" title="HOCO SOLAR FARM INVESTS IN OUR FUTURE"> <h4 class="headline w subgrid-item-3">Our Future</h4></a>
+        <a href="https://hocosolarfarm.com/community-solar-for-hoco/" title="Link to article: HOCO SOLAR FARM INVESTS IN OUR FUTURE"> <h4 class="headline w subgrid-item-3">Our Future</h4></a>
 
     
     </div>
@@ -100,7 +101,7 @@ money.</p>
         
 </div>
 <div class="flex v-center content content-wrapper">    
-    <a href="https://hocosolarfarm.com/howard-county-community-solar-means-no-more-oil/" title="link to article"><h5 class="headline w content">Solar Energy Independence</h5> </a>
+    <a href="https://hocosolarfarm.com/howard-county-community-solar-means-no-more-oil/" title="link to article on Solar Energy Independence"><h5 class="headline w content">Solar Energy Independence</h5> </a>
 
     </div>
 
